@@ -1,0 +1,30 @@
+<!DOCTYPE html><!-----2nd class is preffered---><!-----1st # id is preferred-----><!-----[ id ] type id is not preffered---->
+<html>
+<head>
+	<title>attribute selectors</title>
+	<style type ="text/css">
+		h1,g{
+			color: red;
+		}
+	
+	h1[id="s2"]{
+		color: orange;
+	}
+	h1.firsttag{
+		color: yellow;
+	}
+	#s2{
+		color: skyblue;
+	}
+	</style>
+</head>
+<body>
+<h1 class='firsttag' id ="firsttag"> hello world </h><br><br><br><br><br>
+<g class='firsttag'> hello world </g>
+<br>
+<br>
+<br>
+<br>
+<h1 id ="s2"  class= "firsttag">hello world</h>
+</body>
+</html>
