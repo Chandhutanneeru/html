@@ -1,1 +1,2209 @@
-<script src="shopping.js"></script>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Domino’s Pizza – Order Online | Get 2 Regular Pizza @99 Each</title>
+    <meta name="google-site-verification" content="z1BE_c3E8WBFb7r-0BxsSIUX1d4CyR93lxSivubuDdY">
+    <meta name="google-site-verification" content="2Q2xqQGZ28sWdxvZ_q30_A-YdL4GaX5D_1tiWw8THC4" />
+    <meta name="facebook-domain-verification" content="s9kywkcwhnugruh35mmj0hr6d8gqe8" />
+    <meta name="facebook-domain-verification" content="megn2wa2pne0xcc2l29k4hh3xwo437" />
+    <link rel="manifest" href="https://www.dominos.co.in/notifyvisitors_push/chrome/manifest.json">
+    <link rel="canonical" href="https://www.dominos.co.in/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <script type="text/javascript">
+        (window.NREUM || (NREUM = {})).init = {
+            ajax: {
+                deny_list: ["bam-cell.nr-data.net"]
+            }
+        };
+        (window.NREUM || (NREUM = {})).loader_config = {
+            licenseKey: "62ac01ee86",
+            applicationID: "685069429"
+        };
+        window.NREUM || (NREUM = {}), __nr_require = function(t, e, n) {
+            function r(n) {
+                if (!e[n]) {
+                    var i = e[n] = {
+                        exports: {}
+                    };
+                    t[n][0].call(i.exports, function(e) {
+                        var i = t[n][1][e];
+                        return r(i || e)
+                    }, i, i.exports)
+                }
+                return e[n].exports
+            }
+            if ("function" == typeof __nr_require) return __nr_require;
+            for (var i = 0; i < n.length; i++) r(n[i]);
+            return r
+        }({
+            1: [function(t, e, n) {
+                function r() {}
+
+                function i(t, e, n, r) {
+                    return function() {
+                        return s.recordSupportability("API/" + e + "/called"), o(t + e, [u.now()].concat(c(arguments)), n ? null : this, r), n ? void 0 : this
+                    }
+                }
+                var o = t("handle"),
+                    a = t(9),
+                    c = t(10),
+                    f = t("ee").get("tracer"),
+                    u = t("loader"),
+                    s = t(4),
+                    d = NREUM;
+                "undefined" == typeof window.newrelic && (newrelic = d);
+                var p = ["setPageViewName", "setCustomAttribute", "setErrorHandler", "finished", "addToTrace", "inlineHit", "addRelease"],
+                    l = "api-",
+                    v = l + "ixn-";
+                a(p, function(t, e) {
+                    d[e] = i(l, e, !0, "api")
+                }), d.addPageAction = i(l, "addPageAction", !0), d.setCurrentRouteName = i(l, "routeName", !0), e.exports = newrelic, d.interaction = function() {
+                    return (new r).get()
+                };
+                var m = r.prototype = {
+                    createTracer: function(t, e) {
+                        var n = {},
+                            r = this,
+                            i = "function" == typeof e;
+                        return o(v + "tracer", [u.now(), t, n], r),
+                            function() {
+                                if (f.emit((i ? "" : "no-") + "fn-start", [u.now(), r, i], n), i) try {
+                                    return e.apply(this, arguments)
+                                } catch (t) {
+                                    throw f.emit("fn-err", [arguments, this, t], n), t
+                                } finally {
+                                    f.emit("fn-end", [u.now()], n)
+                                }
+                            }
+                    }
+                };
+                a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","), function(t, e) {
+                    m[e] = i(v, e)
+                }), newrelic.noticeError = function(t, e) {
+                    "string" == typeof t && (t = new Error(t)), s.recordSupportability("API/noticeError/called"), o("err", [t, u.now(), !1, e])
+                }
+            }, {}],
+            2: [function(t, e, n) {
+                function r(t) {
+                    if (NREUM.init) {
+                        for (var e = NREUM.init, n = t.split("."), r = 0; r < n.length - 1; r++)
+                            if (e = e[n[r]], "object" != typeof e) return;
+                        return e = e[n[n.length - 1]]
+                    }
+                }
+                e.exports = {
+                    getConfiguration: r
+                }
+            }, {}],
+            3: [function(t, e, n) {
+                var r = !1;
+                try {
+                    var i = Object.defineProperty({}, "passive", {
+                        get: function() {
+                            r = !0
+                        }
+                    });
+                    window.addEventListener("testPassive", null, i), window.removeEventListener("testPassive", null, i)
+                } catch (o) {}
+                e.exports = function(t) {
+                    return r ? {
+                        passive: !0,
+                        capture: !!t
+                    } : !!t
+                }
+            }, {}],
+            4: [function(t, e, n) {
+                function r(t, e) {
+                    var n = [a, t, {
+                        name: t
+                    }, e];
+                    return o("storeMetric", n, null, "api"), n
+                }
+
+                function i(t, e) {
+                    var n = [c, t, {
+                        name: t
+                    }, e];
+                    return o("storeEventMetrics", n, null, "api"), n
+                }
+                var o = t("handle"),
+                    a = "sm",
+                    c = "cm";
+                e.exports = {
+                    constants: {
+                        SUPPORTABILITY_METRIC: a,
+                        CUSTOM_METRIC: c
+                    },
+                    recordSupportability: r,
+                    recordCustom: i
+                }
+            }, {}],
+            5: [function(t, e, n) {
+                function r() {
+                    return c.exists && performance.now ? Math.round(performance.now()) : (o = Math.max((new Date).getTime(), o)) - a
+                }
+
+                function i() {
+                    return o
+                }
+                var o = (new Date).getTime(),
+                    a = o,
+                    c = t(11);
+                e.exports = r, e.exports.offset = a, e.exports.getLastTimestamp = i
+            }, {}],
+            6: [function(t, e, n) {
+                function r(t, e) {
+                    var n = t.getEntries();
+                    n.forEach(function(t) {
+                        "first-paint" === t.name ? l("timing", ["fp", Math.floor(t.startTime)]) : "first-contentful-paint" === t.name && l("timing", ["fcp", Math.floor(t.startTime)])
+                    })
+                }
+
+                function i(t, e) {
+                    var n = t.getEntries();
+                    if (n.length > 0) {
+                        var r = n[n.length - 1];
+                        if (u && u < r.startTime) return;
+                        var i = [r],
+                            o = a({});
+                        o && i.push(o), l("lcp", i)
+                    }
+                }
+
+                function o(t) {
+                    t.getEntries().forEach(function(t) {
+                        t.hadRecentInput || l("cls", [t])
+                    })
+                }
+
+                function a(t) {
+                    var e = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+                    if (e) return e.type && (t["net-type"] = e.type), e.effectiveType && (t["net-etype"] = e.effectiveType), e.rtt && (t["net-rtt"] = e.rtt), e.downlink && (t["net-dlink"] = e.downlink), t
+                }
+
+                function c(t) {
+                    if (t instanceof y && !w) {
+                        var e = Math.round(t.timeStamp),
+                            n = {
+                                type: t.type
+                            };
+                        a(n), e <= v.now() ? n.fid = v.now() - e : e > v.offset && e <= Date.now() ? (e -= v.offset, n.fid = v.now() - e) : e = v.now(), w = !0, l("timing", ["fi", e, n])
+                    }
+                }
+
+                function f(t) {
+                    "hidden" === t && (u = v.now(), l("pageHide", [u]))
+                }
+                if (!("init" in NREUM && "page_view_timing" in NREUM.init && "enabled" in NREUM.init.page_view_timing && NREUM.init.page_view_timing.enabled === !1)) {
+                    var u, s, d, p, l = t("handle"),
+                        v = t("loader"),
+                        m = t(8),
+                        g = t(3),
+                        y = NREUM.o.EV;
+                    if ("PerformanceObserver" in window && "function" == typeof window.PerformanceObserver) {
+                        s = new PerformanceObserver(r);
+                        try {
+                            s.observe({
+                                entryTypes: ["paint"]
+                            })
+                        } catch (h) {}
+                        d = new PerformanceObserver(i);
+                        try {
+                            d.observe({
+                                entryTypes: ["largest-contentful-paint"]
+                            })
+                        } catch (h) {}
+                        p = new PerformanceObserver(o);
+                        try {
+                            p.observe({
+                                type: "layout-shift",
+                                buffered: !0
+                            })
+                        } catch (h) {}
+                    }
+                    if ("addEventListener" in document) {
+                        var w = !1,
+                            b = ["click", "keydown", "mousedown", "pointerdown", "touchstart"];
+                        b.forEach(function(t) {
+                            document.addEventListener(t, c, g(!1))
+                        })
+                    }
+                    m(f)
+                }
+            }, {}],
+            7: [function(t, e, n) {
+                function r(t, e) {
+                    if (!i) return !1;
+                    if (t !== i) return !1;
+                    if (!e) return !0;
+                    if (!o) return !1;
+                    for (var n = o.split("."), r = e.split("."), a = 0; a < r.length; a++)
+                        if (r[a] !== n[a]) return !1;
+                    return !0
+                }
+                var i = null,
+                    o = null,
+                    a = /Version\/(\S+)\s+Safari/;
+                if (navigator.userAgent) {
+                    var c = navigator.userAgent,
+                        f = c.match(a);
+                    f && c.indexOf("Chrome") === -1 && c.indexOf("Chromium") === -1 && (i = "Safari", o = f[1])
+                }
+                e.exports = {
+                    agent: i,
+                    version: o,
+                    match: r
+                }
+            }, {}],
+            8: [function(t, e, n) {
+                function r(t) {
+                    function e() {
+                        t(c && document[c] ? document[c] : document[o] ? "hidden" : "visible")
+                    }
+                    "addEventListener" in document && a && document.addEventListener(a, e, i(!1))
+                }
+                var i = t(3);
+                e.exports = r;
+                var o, a, c;
+                "undefined" != typeof document.hidden ? (o = "hidden", a = "visibilitychange", c = "visibilityState") : "undefined" != typeof document.msHidden ? (o = "msHidden", a = "msvisibilitychange") : "undefined" != typeof document.webkitHidden && (o = "webkitHidden", a = "webkitvisibilitychange", c = "webkitVisibilityState")
+            }, {}],
+            9: [function(t, e, n) {
+                function r(t, e) {
+                    var n = [],
+                        r = "",
+                        o = 0;
+                    for (r in t) i.call(t, r) && (n[o] = e(r, t[r]), o += 1);
+                    return n
+                }
+                var i = Object.prototype.hasOwnProperty;
+                e.exports = r
+            }, {}],
+            10: [function(t, e, n) {
+                function r(t, e, n) {
+                    e || (e = 0), "undefined" == typeof n && (n = t ? t.length : 0);
+                    for (var r = -1, i = n - e || 0, o = Array(i < 0 ? 0 : i); ++r < i;) o[r] = t[e + r];
+                    return o
+                }
+                e.exports = r
+            }, {}],
+            11: [function(t, e, n) {
+                e.exports = {
+                    exists: "undefined" != typeof window.performance && window.performance.timing && "undefined" != typeof window.performance.timing.navigationStart
+                }
+            }, {}],
+            ee: [function(t, e, n) {
+                function r() {}
+
+                function i(t) {
+                    function e(t) {
+                        return t && t instanceof r ? t : t ? u(t, f, a) : a()
+                    }
+
+                    function n(n, r, i, o, a) {
+                        if (a !== !1 && (a = !0), !l.aborted || o) {
+                            t && a && t(n, r, i);
+                            for (var c = e(i), f = m(n), u = f.length, s = 0; s < u; s++) f[s].apply(c, r);
+                            var p = d[w[n]];
+                            return p && p.push([b, n, r, c]), c
+                        }
+                    }
+
+                    function o(t, e) {
+                        h[t] = m(t).concat(e)
+                    }
+
+                    function v(t, e) {
+                        var n = h[t];
+                        if (n)
+                            for (var r = 0; r < n.length; r++) n[r] === e && n.splice(r, 1)
+                    }
+
+                    function m(t) {
+                        return h[t] || []
+                    }
+
+                    function g(t) {
+                        return p[t] = p[t] || i(n)
+                    }
+
+                    function y(t, e) {
+                        l.aborted || s(t, function(t, n) {
+                            e = e || "feature", w[n] = e, e in d || (d[e] = [])
+                        })
+                    }
+                    var h = {},
+                        w = {},
+                        b = {
+                            on: o,
+                            addEventListener: o,
+                            removeEventListener: v,
+                            emit: n,
+                            get: g,
+                            listeners: m,
+                            context: e,
+                            buffer: y,
+                            abort: c,
+                            aborted: !1
+                        };
+                    return b
+                }
+
+                function o(t) {
+                    return u(t, f, a)
+                }
+
+                function a() {
+                    return new r
+                }
+
+                function c() {
+                    (d.api || d.feature) && (l.aborted = !0, d = l.backlog = {})
+                }
+                var f = "nr@context",
+                    u = t("gos"),
+                    s = t(9),
+                    d = {},
+                    p = {},
+                    l = e.exports = i();
+                e.exports.getOrSetContext = o, l.backlog = d
+            }, {}],
+            gos: [function(t, e, n) {
+                function r(t, e, n) {
+                    if (i.call(t, e)) return t[e];
+                    var r = n();
+                    if (Object.defineProperty && Object.keys) try {
+                        return Object.defineProperty(t, e, {
+                            value: r,
+                            writable: !0,
+                            enumerable: !1
+                        }), r
+                    } catch (o) {}
+                    return t[e] = r, r
+                }
+                var i = Object.prototype.hasOwnProperty;
+                e.exports = r
+            }, {}],
+            handle: [function(t, e, n) {
+                function r(t, e, n, r) {
+                    i.buffer([t], r), i.emit(t, e, n)
+                }
+                var i = t("ee").get("handle");
+                e.exports = r, r.ee = i
+            }, {}],
+            id: [function(t, e, n) {
+                function r(t) {
+                    var e = typeof t;
+                    return !t || "object" !== e && "function" !== e ? -1 : t === window ? 0 : a(t, o, function() {
+                        return i++
+                    })
+                }
+                var i = 1,
+                    o = "nr@id",
+                    a = t("gos");
+                e.exports = r
+            }, {}],
+            loader: [function(t, e, n) {
+                function r() {
+                    if (!M++) {
+                        var t = T.info = NREUM.info,
+                            e = m.getElementsByTagName("script")[0];
+                        if (setTimeout(u.abort, 3e4), !(t && t.licenseKey && t.applicationID && e)) return u.abort();
+                        f(x, function(e, n) {
+                            t[e] || (t[e] = n)
+                        });
+                        var n = a();
+                        c("mark", ["onload", n + T.offset], null, "api"), c("timing", ["load", n]);
+                        var r = m.createElement("script");
+                        0 === t.agent.indexOf("http://") || 0 === t.agent.indexOf("https://") ? r.src = t.agent : r.src = l + "://" + t.agent, e.parentNode.insertBefore(r, e)
+                    }
+                }
+
+                function i() {
+                    "complete" === m.readyState && o()
+                }
+
+                function o() {
+                    c("mark", ["domContent", a() + T.offset], null, "api")
+                }
+                var a = t(5),
+                    c = t("handle"),
+                    f = t(9),
+                    u = t("ee"),
+                    s = t(7),
+                    d = t(2),
+                    p = t(3),
+                    l = d.getConfiguration("ssl") === !1 ? "http" : "https",
+                    v = window,
+                    m = v.document,
+                    g = "addEventListener",
+                    y = "attachEvent",
+                    h = v.XMLHttpRequest,
+                    w = h && h.prototype,
+                    b = !1;
+                NREUM.o = {
+                    ST: setTimeout,
+                    SI: v.setImmediate,
+                    CT: clearTimeout,
+                    XHR: h,
+                    REQ: v.Request,
+                    EV: v.Event,
+                    PR: v.Promise,
+                    MO: v.MutationObserver
+                };
+                var E = "" + location,
+                    x = {
+                        beacon: "bam.nr-data.net",
+                        errorBeacon: "bam.nr-data.net",
+                        agent: "js-agent.newrelic.com/nr-1216.min.js"
+                    },
+                    O = h && w && w[g] && !/CriOS/.test(navigator.userAgent),
+                    T = e.exports = {
+                        offset: a.getLastTimestamp(),
+                        now: a,
+                        origin: E,
+                        features: {},
+                        xhrWrappable: O,
+                        userAgent: s,
+                        disabled: b
+                    };
+                if (!b) {
+                    t(1), t(6), m[g] ? (m[g]("DOMContentLoaded", o, p(!1)), v[g]("load", r, p(!1))) : (m[y]("onreadystatechange", i), v[y]("onload", r)), c("mark", ["firstbyte", a.getLastTimestamp()], null, "api");
+                    var M = 0
+                }
+            }, {}],
+            "wrap-function": [function(t, e, n) {
+                function r(t, e) {
+                    function n(e, n, r, f, u) {
+                        function nrWrapper() {
+                            var o, a, s, p;
+                            try {
+                                a = this, o = d(arguments), s = "function" == typeof r ? r(o, a) : r || {}
+                            } catch (l) {
+                                i([l, "", [o, a, f], s], t)
+                            }
+                            c(n + "start", [o, a, f], s, u);
+                            try {
+                                return p = e.apply(a, o)
+                            } catch (v) {
+                                throw c(n + "err", [o, a, v], s, u), v
+                            } finally {
+                                c(n + "end", [o, a, p], s, u)
+                            }
+                        }
+                        return a(e) ? e : (n || (n = ""), nrWrapper[p] = e, o(e, nrWrapper, t), nrWrapper)
+                    }
+
+                    function r(t, e, r, i, o) {
+                        r || (r = "");
+                        var c, f, u, s = "-" === r.charAt(0);
+                        for (u = 0; u < e.length; u++) f = e[u], c = t[f], a(c) || (t[f] = n(c, s ? f + r : r, i, f, o))
+                    }
+
+                    function c(n, r, o, a) {
+                        if (!v || e) {
+                            var c = v;
+                            v = !0;
+                            try {
+                                t.emit(n, r, o, e, a)
+                            } catch (f) {
+                                i([f, n, r, o], t)
+                            }
+                            v = c
+                        }
+                    }
+                    return t || (t = s), n.inPlace = r, n.flag = p, n
+                }
+
+                function i(t, e) {
+                    e || (e = s);
+                    try {
+                        e.emit("internal-error", t)
+                    } catch (n) {}
+                }
+
+                function o(t, e, n) {
+                    if (Object.defineProperty && Object.keys) try {
+                        var r = Object.keys(t);
+                        return r.forEach(function(n) {
+                            Object.defineProperty(e, n, {
+                                get: function() {
+                                    return t[n]
+                                },
+                                set: function(e) {
+                                    return t[n] = e, e
+                                }
+                            })
+                        }), e
+                    } catch (o) {
+                        i([o], n)
+                    }
+                    for (var a in t) l.call(t, a) && (e[a] = t[a]);
+                    return e
+                }
+
+                function a(t) {
+                    return !(t && t instanceof Function && t.apply && !t[p])
+                }
+
+                function c(t, e) {
+                    var n = e(t);
+                    return n[p] = t, o(t, n, s), n
+                }
+
+                function f(t, e, n) {
+                    var r = t[e];
+                    t[e] = c(r, n)
+                }
+
+                function u() {
+                    for (var t = arguments.length, e = new Array(t), n = 0; n < t; ++n) e[n] = arguments[n];
+                    return e
+                }
+                var s = t("ee"),
+                    d = t(10),
+                    p = "nr@original",
+                    l = Object.prototype.hasOwnProperty,
+                    v = !1;
+                e.exports = r, e.exports.wrapFunction = c, e.exports.wrapInPlace = f, e.exports.argsToArray = u
+            }, {}]
+        }, {}, ["loader"]);
+    </script>
+    <meta name="keywords" content="Our Menu">
+    <meta name="description" content="Order Pizza online from Domino’s and Get home delivery of 2 Medium Pizzas worth Just 199/each. ZERO Contact Delivery. Baked at 465 'F. 100% Sanitised Stores.">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script>
+    <script defer src="https://connect.facebook.net/signals/config/1713162712313343?v=2.8.25&amp;r=stable" async=""></script>
+    <script defer async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
+    <script type="text/javascript" async="" src="https://d2r1yp2w7bby2u.cloudfront.net/js/a.js"></script>
+    <script src="//bat.bing.com/bat.js" async=""></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script>
+    <script type="text/javascript" async="" src="//static.ads-twitter.com/uwt.js"></script>
+    <script type="text/javascript" src="//cdn.notifyvisitors.com/js/notify-visitors-1.0.js"></script>
+    <script async="" charset="utf-8" defer src="https://v2.zopim.com/?5BCqkYHrgnfow6NrK7HyRX6KngvfEAAe" type="text/javascript"></script>
+    <script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-MW6ZCB"></script>
+    <script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972223377/?random=1534414608135&amp;cv=9&amp;fst=1534414608135&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=1050&amp;u_w=1680&amp;u_ah=1050&amp;u_aw=1680&amp;u_cd=24&amp;u_his=2&amp;u_tz=330&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=G86&amp;sendb=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.dominos.co.in%2F&amp;tiba=Domino's%20Pizza%3A%20Order%20Online%20%7C%20Get%202%20Regular%20Pizzas%20%40%20%E2%82%B999%20Each%20%7C%20Everyday%20Value%20Offers.&amp;async=1&amp;rfmt=3&amp;fmt=4"></script>
+    <script type="text/javascript" src="https://wzrkt.com/a?t=87&amp;type=page&amp;d=N4IglgJiBcICxwFoFoBKB1AnMgbJpIANCAOYzwBmAhhQKwDGAzFQBxyaNz1UCMHTjDrR6MA7GwCm1IiADOMHrU5wecWpkzEADmWgAmYvR3kAFgBczW2dAD0NgO6OAdBAD2AWzAA7V7Kf1XJ28bGXREVABpAH0AYQBBAFkABRhQe3ctGAAGYjMAG3oYAG0AXQBfMqAA%3D%3D&amp;rn=1&amp;i=1534414608&amp;sn=0&amp;gc=4faf5c3a84934ca193c3393513784efa&amp;arp=N4IgVg%2BgdiBcAMAaEBLacBMA2ALAdngFY8BGZAEwgBcBnOJEcgC3uQDc4zwI7YRgABAF8QyFOTggcOAFoBaAEoB1AJxysK2SCFAAAA%3D%3D&amp;r=1534414608170"
+        rel="nofollow" async=""></script>
+    <style media="print" class="jx_ui_StyleSheet" __jx__id="___$_2" type="text/css">
+        .zopim {
+            display: none !important
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.2/tiny-slider.css">
+    <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.2/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.2/min/tiny-slider.js"></script>
+    <!--zoopim chat code -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script type="text/javascript">
+        window.$zopim || (function(d, s) {
+            var z = $zopim = function(c) {
+                    z._.push(c)
+                },
+                $ = z.s =
+                d.createElement(s),
+                e = d.getElementsByTagName(s)[0];
+            z.set = function(o) {
+                z.set.
+                _.push(o)
+            };
+            z._ = [];
+            z.set._ = [];
+            $.async = !0;
+            $.setAttribute("charset", "utf-8");
+            $.setAttribute("defer", "");
+            $.src = "https://v2.zopim.com/?5BCqkYHrgnfow6NrK7HyRX6KngvfEAAe";
+            z.t = +new Date;
+            $.
+            type = "text/javascript";
+            e.parentNode.insertBefore($, e)
+        })(document, "script");
+    </script>
+    <!-- End Zoopim chat code -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MW6ZCB');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Begin: Organization Tag-->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "Name": "Domino's India",
+            "URL": "https://www.dominos.co.in",
+            "contactPoint": [{
+                "@type": "ContactPoint",
+                "telephone": "1800-208-1234",
+                "contactType": "Customer Service"
+            }],
+            "logo": "https://www.dominos.co.in/theme2/front/images/home/Dominos-APP-LOGO-1.png",
+            "sameAs": [
+                "https://www.facebook.com/dominospizzaindia/",
+                "https://twitter.com/dominos_india",
+                "https://www.instagram.com/dominos_india/",
+                "https://www.youtube.com/user/dominosindia"
+            ]
+        }
+    </script>
+    <!-- End: Organization Tag-->
+    <link rel="stylesheet" href="./styles/style1.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+</head>
+
+<body id="landscape-mode">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MW6ZCB"
+    height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+</noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <noscript>
+    <iframe src="https://bs.serving-sys.com/BurstingPipe?
+            cn=ot&amp;
+            onetagid=1839&amp;
+            ns=1&amp;
+            activityValues=$$
+            Value=[Value]&amp;
+            OrderID=[OrderID]&amp;
+            ProductID=[ProductID]&amp;
+            ProductInfo=[ProductInfo]&amp;
+            Quantity=[Quantity]&amp;$$&amp;
+            retargetingValues=$$&amp;
+            dynamicRetargetingValues=$$&amp;
+            acp=$$$$&amp;"
+            style="display:none;width:0px;height:0px">
+    </iframe>
+</noscript>
+    <p class="landscape-message hide" id="landscape-mess">
+        Landscape Mode is Currently not Supported. For the best experience please rotate your device.
+    </p>
+    <noscript>
+    <span>
+      This website requires Javascript. Please enable javascript in browser settings.
+    </span>
+</noscript>
+    <div id="sideNavOverlay"></div>
+    <div class="modal">
+        <div class="modal-content">
+            <img class="close-button" srcset="./assets/Close@3x.png 3x, ./assets/Close.png 1x, ./assets/Close@2x.png 2x" src="./assets/Close.png" alt="Close">
+            <div class="modal-message">
+                To avail the offer, select Delivery or Pick Up location
+            </div>
+            <a class="pop-button" onclick="redirectToOrderOnline()" href="https://m.dominos.co.in/changeAddress?src=brand">
+        SELECT LOCATION
+      </a>
+        </div>
+    </div>
+    <div class="wrapper" id="container">
+        <div id="domino-header">
+            <div class="header" id="top-header">
+                <div class="hamburger" onclick="openDrawer()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="" class="logo-image">
+        <img 
+          srcset="./assets/Logo.png 1x, ./assets/Logo@2x.png 2x, ./assets/Logo@3x.png 3x" 
+          src="./assets/Logo.png"
+        />
+      </a>
+                <ul class="upper-footer-links">
+                    <li><a href="/menu">OUR MENU</a></li>
+                    <!--<li><a href="/great-deals/online-pizza-coupons">OFFERS</a></li>-->
+                    <li><a href="/store-locations/">DOMINO'S STORES</a></li>
+                    <!-- <li class="link-desktop"><a href="/about-us">INSIDE DOMINO'S</a></li> -->
+                    <li class="link-desktop"><a href="/gift-vouchers">GIFT CARD</a></li>
+                    <li onclick="corpMenuTopClicked();" class="link-desktop"><a href="/virtual-pizza-party">CORPORATE ENQUIRY</a></li>
+                    <li class="link-desktop"><a href="/contact">CONTACT</a></li>
+                </ul>
+                <a class="dnld-app-header" href="https://dominos.onelink.me/uM7R/3e839899">
+        Download App
+      </a>
+            </div>
+            <div id="sideNavBar" class="sidenav" onscroll="stickyNavHeader()">
+                <ul class="side-nav-header" id="sideNavHeader">
+                    <li onclick="closeDrawer()">
+                        <img srcset="./assets/Close@3x.png 3x, ./assets/Close.png 1x, ./assets/Close@2x.png 2x" src="./assets/Close.png" alt="Close">
+                    </li>
+                    <li>
+                        <a href="/">
+              <img 
+                srcset="./assets/Home@3x.png 3x, ./assets/Home.png 1x, ./assets/Home@2x.png 2x" src="./assets/Home.png"
+                alt="Home"
+              >
+            </a>
+                    </li>
+                </ul>
+                <a href="/menu" class="side-nav-list">
+                    <ul class="side-nav-link">
+                        <li class="side-nav-icon">
+                            <img srcset="./assets/side_menu@3x.png 3x, ./assets/side_menu.png 1x, ./assets/side_menu@2x.png 2x" src="./assets/side_menu.png" alt="side_menu">
+                        </li>
+                        <li>Our Menu</li>
+                    </ul>
+                </a>
+                <!--<a href="/great-deals/online-pizza-coupons">
+          <ul class="side-nav-link">
+            <li class="side-nav-icon">
+              <img 
+                srcset="./assets/Offers@3x.png 3x, ./assets/Offers.png 1x, ./assets/Offers@2x.png 2x" src="./assets/Offers.png"
+                alt="Offers"
+              >
+            </li>
+            <li>Special Offer</li>
+          </ul>
+        </a>-->
+                <a href="/gift-vouchers">
+                    <ul class="side-nav-link">
+                        <li class="side-nav-icon">
+                            <img srcset="./assets/Gift_Card@3x.png 3x, ./assets/Gift_Card.png 1x, ./assets/Gift_Card@2x.png 2x" src="./assets/Gift_Card.png" alt="Gift Card">
+                        </li>
+                        <li>Gift Card</li>
+                    </ul>
+                </a>
+                <a href="/store-location">
+                    <ul class="side-nav-link">
+                        <li class="side-nav-icon">
+                            <img srcset="./assets/Store_Finder@3x.png 3x, ./assets/Store_Finder.png 1x, ./assets/Store_Finder@2x.png 2x" src="./assets/Store_Finder.png" alt="Store_Finder">
+                        </li>
+                        <li>Store Finder</li>
+                    </ul>
+                </a>
+                <!-- <a href="/about-us">
+          <ul class="side-nav-link">
+            <li class="side-nav-icon">
+              <img 
+                srcset="./assets/Inside_Dominos@3x.png 3x, ./assets/Inside_Dominos.png 1x, ./assets/Inside_Dominos@2x.png 2x" src="./assets/Inside_Dominos.png"
+                alt="Inside_Dominos"
+              >
+            </li>
+            <li>Inside Domino’s</li>
+          </ul>
+        </a> -->
+                <a href="/bday-party">
+                    <ul class="side-nav-link">
+                        <li class="side-nav-icon">
+                            <img srcset="./assets/Birthday_party@3x.png 3x, ./assets/Birthday_party.png 1x, ./assets/Birthday_party@2x.png 2x" src="./assets/Birthday_party.png" alt="Birthday_party">
+                        </li>
+                        <li>Birthday Party</li>
+                    </ul>
+                </a>
+                <a href="/wedding">
+                    <ul class="side-nav-link">
+                        <li class="side-nav-icon">
+                            <img srcset="./assets/Coporate_orders@3x.png 3x, ./assets/Coporate_orders.png 1x, ./assets/Coporate_orders@2x.png 2x" src="./assets/Coporate_orders.png" alt="Coporate_orders">
+                        </li>
+                        <li>Coporate Orders</li>
+                    </ul>
+                </a>
+                <a href="/blog">
+                    <ul class="side-nav-link">
+                        <li class="side-nav-icon">
+                            <img srcset="./assets/Blog@3x.png 3x, ./assets/Blog.png 1x, ./assets/Blog@2x.png 2x" src="./assets/Blog.png" alt="Blog">
+                        </li>
+                        <li>Blogs</li>
+                    </ul>
+                </a>
+                <a href="http://www.jubilantfoodworks.com/investors/">
+                    <ul class="side-nav-link">
+                        <li class="side-nav-icon">
+                            <img srcset="./assets/Investor@3x.png 3x, ./assets/Investor.png 1x, ./assets/Investor@2x.png 2x" src="./assets/Investor.png" alt="Investor">
+                        </li>
+                        <li>Investors</li>
+                    </ul>
+                </a>
+                <a href="/feedback">
+                    <ul class="side-nav-link">
+                        <li class="side-nav-icon">
+                            <img srcset="./assets/Feedback@3x.png 3x, ./assets/Feedback.png 1x, ./assets/Feedback@2x.png 2x" src="./assets/Feedback.png" alt="Feedback">
+                        </li>
+                        <li>Feedback</li>
+                    </ul>
+                </a>
+                <a href="/contact">
+                    <ul class="side-nav-link">
+                        <li class="side-nav-icon">
+                            <img srcset="./assets/Contact@3x.png 3x, ./assets/Contact.png 1x, ./assets/Contact@2x.png 2x" src="./assets/Contact.png" alt="Contact">
+                        </li>
+                        <li>Contacts</li>
+                    </ul>
+                </a>
+                <a href="/advertisement">
+                    <ul class="side-nav-link">
+                        <li class="side-nav-icon">
+                            <img srcset="./assets/Add@3x.png 3x, ./assets/Add.png 1x, ./assets/Add@2x.png 2x" src="./assets/Add.png" alt="Add">
+                        </li>
+                        <li>ADS</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="online-order" id="online-banner">
+                <div class="banner-text">
+                    <h1 class="order-heading">Domino's online ordering</h1>
+                    <p class="deliver-message" id="delivery-text">Yummy pizza delivered fast & fresh</p>
+                    <a href="https://m.dominos.co.in/changeAddress?src=brand" onclick="redirectToOrderOnline()">
+          <button>ORDER ONLINE NOW</button>
+        </a>
+                </div>
+                <a href="https://m.dominos.co.in/changeAddress?src=brand" onclick="redirectToOrderOnline()">
+        <img 
+          srcset="./assets/header_bg.png 1x, ./assets/header_bg@2x.png 2x, ./assets/header_bg@3x.png 3x" 
+          src="./assets/header_bg.png"
+          alt="Food Delivery & Order Pizza Online" 
+          id="bannerImage"
+        />
+        <img 
+          onclick="gotoHygienePage();"
+          src="./assets/banner_brand_20210922.jpg"
+          alt="Food Delivery & Order Pizza Online" 
+          id="higeneImage"
+        />
+        <img 
+          srcset="./assets/Banner_sticky.png 1x, ./assets/Banner_sticky@2x.png 2x, ./assets/Banner_sticky@3x.png 3x" 
+          src="./assets/Banner_sticky.png"
+          alt="Food Delivery & Order Pizza Online" 
+          id="bannerImageSticky"
+          class="hide"
+        />
+      </a>
+            </div>
+        </div>
+        <div id="bodyClass">
+            <ul class="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
+                <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://www.dominos.co.in"><span property="name">Home</span></a>
+                    <meta property="position" content="1">
+                </li>
+            </ul>
+            <div class="carousel-wrapper">
+                <div class="offers" onclick="toggleModal()">
+                    <h2 class="carousel-title">Coupons & Offers</h2>
+                    <div class="offers-slider" id="offers">
+                    </div>
+                    <ul class="controls" id="customize-controls">
+                        <li class="prev" tabindex="-1" data-controls="prev">
+                            <img srcset="./assets/slider_arrow_left.png 1x, ./assets/slider_arrow_left@2x.png 2x, ./assets/slider_arrow_left@3x.png 3x" src="./assets/slider_arrow_left.png" alt="Arrow Left" class="control-carousel" />
+                        </li>
+                        <li class="next" data-controls="next">
+                            <img srcset="./assets/slider_arrow_right.png 1x, ./assets/slider_arrow_right@2x.png 2x, ./assets/slider_arrow_right@3x.png 3x" src="./assets/slider_arrow_right.png" alt="Arrow Right" class="control-carousel" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="explore">
+                    <h2 class="carousel-title">Explore</h2>
+                    <div class="explore-slider">
+                        <div class="explore-slide-wrapper">
+                            <a class="explore-slide" href="/menu">
+                  <img 
+                    srcset="./assets/menu.png 1x, ./assets/menu@2x.png 2x, ./assets/menu@3x.png 3x" 
+                    src="./assets/menu.png"
+                    alt="explore Menu" 
+                  />
+                  <div class"explore-desc">
+                    <h3 class="explore-heading">Our Menu</h3>
+                    <p class="content">Explore our range of delicious Pizzas, delivered in 30 minutes!</p>
+                  </div>
+                </a>
+                            <a class="book-now" href="/menu">
+                  <span>DISCOVER PIZZA</span>
+                </a>
+                        </div>
+                        <div class="explore-slide-wrapper">
+                            <a class="explore-slide" href="/store-location/">
+                  <img 
+                    srcset="./assets/store.png 1x, ./assets/store@2x.png 2x, ./assets/store@3x.png 3x" 
+                    src="./assets/store.png"
+                    alt="store Locator" 
+                  />
+                  <div class"explore-desc">
+                    <h3 class="explore-heading">NEARBY STORE</h3>
+                    <p class="content">Find a Domino’s Pizza restaurant near you</p>
+                  </div>
+                </a>
+                            <a class="book-now" href="/store-location/">
+                  <span>FIND DOMINO'S STORE</span>
+                </a>
+                        </div>
+                        <div class="explore-slide-wrapper">
+                            <a class="explore-slide" href="/bday-party">
+                  <img 
+                    srcset="./assets/birthday.png 1x, ./assets/birthday@2x.png 2x, ./assets/birthday@3x.png 3x" 
+                    src="./assets/birthday.png"
+                    alt="bday Party" 
+                  />
+                  <div class"explore-desc">
+                    <h3 class="explore-heading">Birthday Party</h3>
+                    <p class="content">Celebrate the joy of birthday with Fresh & Hot pizzas</p>
+                  </div>
+                </a>
+                            <a class="book-now" href="/bday-party">
+                  <span>BOOK NOW</span>
+                </a>
+                        </div>
+                        <div class="explore-slide-wrapper">
+                            <a class="explore-slide" href="/wedding">
+                  <img 
+                    srcset="./assets/catering.png 1x, ./assets/catering@2x.png 2x, ./assets/catering@3x.png 3x" 
+                    src="./assets/catering.png"
+                    alt="bday Party" 
+                  />
+                  <div class"explore-desc">
+                    <h3 class="explore-heading">Catering</h3>
+                    <p class="content">Live Domino's Kitchen for weddings / corporate events</p>
+                  </div>
+                </a>
+                            <a class="book-now" href="/wedding">
+                  <span>BOOK NOW</span>
+                </a>
+                        </div>
+                        <div class="extra-slider">
+                            <a class="explore-slide" href="/wedding">
+                    <img 
+                      srcset="./assets/catering.png 1x, ./assets/catering@2x.png 2x, ./assets/catering@3x.png 3x" 
+                      src="./assets/catering.png"
+                      alt="bday Party" 
+                    />
+                    <div class"explore-desc">
+                      <h3 class="explore-heading">Catering</h3>
+                      <p class="content">Live Domino's Kitchen for weddings / corporate events</p>
+                    </div>
+                  </a>
+                            <a class="book-now" href="/wedding">
+                    <span>BOOK NOW</span>
+                  </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="app-img">
+                <img class="app-img-desktop" srcset="./assets/new_app_img.png 1x, ./assets/new_app_img@2x.png 2x, ./assets/new_app_img@3x.png 3x" src="./assets/new_app_img.png" alt="app image" />
+                <div class="app-download-wrapper">
+                    <h3 class="app-download">Unlock Exclusive Offers</h3>
+                    <p>For lightning fast ordering experience download the Domino’s app</p>
+                    <ul class="appdownload-img">
+                        <li>
+                            <a href="https://dominos.onelink.me/uM7R/3e839899">
+              <img 
+                srcset="./assets/play_store.png 1x, ./assets/play_store@2x.png 2x, ./assets/play_store@3x.png 3x," src="./assets/play_store.png"
+                alt="google play store"
+              >
+            </a>
+                        </li>
+                        <li>
+                            <a href="https://dominos.onelink.me/uM7R/aa9c37d4">
+              <img 
+                srcset="./assets/app_store.png 1x, ./assets/app_store@2x.png 2x, ./assets/app_store@3x.png 3x" src="./assets/app_store.png"
+                alt="apple app store"
+              >
+            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="seo-content">
+                <h3 class="content-h3">Domino's Pizza: Delivering Happiness</h3>
+                <p class="content-p">What’s better than having a crispy melty pizza, you ask?</p>
+                <p class="content-p">Having that crispy and melty pizza in the comfort of your own home with the ones you love, we say.</p>
+                <p class="content-p">With Domino's it is always “Rishton ka time”. Whether it's a treat for your promotion, a kid topping his class or winning the heart of your wife who is too tired to cook after a long day at work! A cheesy slice of the best pizza is all
+                    one needs to put things into perspective and start any celebration. Plus, you do not even need to rush to the restaurant to have one now. A call, a few clicks on our website or a few touches on the mobile screen is all you have to
+                    do to have that tempting, light-on-the-pocket pizza at your doorstep.</p>
+                <p class="content-p">There is something for everyone here. The vegetarians, non-vegetarians, the sides’ lovers and also the ones who love to have something sweet by the time they reach the last bite of the last slice of pizza slice.
+                </p>
+                <h3 class="content-h3">What We Need - More Choice. More Fun.</h3>
+                <p class="content-p">No matter what the situation, pizza always helps. Especially a pizza that gives you the freedom to choose your toppings - from paneer, crisp capsicum, onion, grilled mushroom, golden corn, black olives, fresh tomato, red paprika, jalapeno,
+                    paneer tikka and extra cheese to non-veg toppings such as pepper barbeque chicken, peri-peri chicken, grilled chicken rasher, chicken sausage or chicken tikka- the options are almost endless, anything and everything you can think of
+                    that too on top of the crust of your choice - New hand-tossed crust, wheat thin crust, cheese burst crust, classic hand-tossed crust or a fresh pan pizza. Because just like a pizza, Domino's understands you.</p>
+                <p class="content-p">And to shoo away those end-of-the-month blues while placing your order with our pizza restaurant, check out the everyday pizzas from pizza mania combos with everyday value offer of 2 pizzas starting at just ₹99 (regular size) and ₹199
+                    (medium size) each. </p>
+                </p>
+                <h3 class="content-h3">The promise of 30-minute Delivery</h3>
+                <p class="content-p">The icing on the cake or more aptly the extra cheese on your already fabulous pizza is that Domino’s takes only half an hour for its pizza delivery service. Don’t believe us? Time it if you please. With 1250+ stores present all over India,
+                    you can have a Domino’s pizza even while traveling on a train. Yes, you are reading it right, you can enjoy pizza on train too.
+                </p>
+                <p class="content-p">So stop googling for the “pizza shops near me” and order from your nearest pizza outlet to have a hot box of pizza on your table in the next 30 minutes, or berth at the next halting station.
+                </p>
+                <h3 class="content-h3">Franchise Information</h3>
+                <p class="content-p">Jubilant FoodWorks Limited is the Master Franchisee of Domino’s Pizza in India, Bangladesh, Sri Lanka and Nepal with sole and exclusive rights to own and operate Domino’s Pizza restaurants in these territories. For any franchise-related
+                    queries, kindly email us directly at dominos.franchise@jublfood.com
+                </p>
+                <p class="content-p">We have come across a few instances of fraudsters posing as Jubilant FoodWorks and asking for payment from gullible investors against the promise of a Domino’s franchise. We therefore caution and urge all interested parties to be careful
+                    and vigilant and interact only with the email id mentioned above. Anyone dealing with such fraudsters shall be doing so on their own peril, risk and consequences.
+                </p>
+                <p class="content-p">Neither Jubilant FoodWorks nor its Directors/Officers shall be responsible for any loss, harm, damage or fraud that occurs or may occur or arise to any person who decides to access such fake websites, or deal with them.</p>
+            </div>
+
+            <div class="tab-content container-link col-xs-12 pd-N" style="margin-bottom:20px;">
+                <div class="st-box-white">
+                    <h2 class="st-sub-head mb-3">FAQ - People Also Ask</h2>
+                    <div id="faq-accordion" class="st-accordion" itemscope="" itemtype="https://schema.org/FAQPage">
+
+                        <div class="card" style="width:99%" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header">
+                                <div itemprop="name">
+                                    <a class="card-link st-block collapsed accordion-toggle" style="color:black;" data-toggle="collapse" href="#collapse-faq-1" aria-expanded="false">
+                                Is Domino’s Free After 1 Hour?                                <span class="pull-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                            </a>
+                                </div>
+                            </div>
+                            <div style="margin-left:14px;" id="collapse-faq-1" class="collapse" data-parent="#faq-accordion" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="">
+                                <div class="card-body" itemprop="text">
+                                    <p><span id="docs-internal-guid-f43ce10d-7fff-1ef2-453c-3e394fa9ccee"><span>Yes,</span><span style="color: #0000ff;"><a href="https://www.dominos.co.in/"><span style="color: #0000ff;">Domino&rsquo;s</span></a>
+                                        </span><span> is free after 1 hour, subject to the applicable terms and conditions. During rush hours or the festive season, this offer may not apply. Ask the person taking the order about the same. If ordering online, you can call the outlet number displayed in the mobile app to know if you can get your order free if not delivered within 1 hour.</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width:99%" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header">
+                                <div itemprop="name">
+                                    <a class="card-link st-block collapsed accordion-toggle" style="color:black;" data-toggle="collapse" href="#collapse-faq-2" aria-expanded="false">
+                                How do I get a free pizza from Domino’s?                                <span class="pull-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                            </a>
+                                </div>
+                            </div>
+                            <div style="margin-left:14px;" id="collapse-faq-2" class="collapse" data-parent="#faq-accordion" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="">
+                                <div class="card-body" itemprop="text">
+                                    <p><span id="docs-internal-guid-824c20a4-7fff-d2d1-75b4-319bb0fddedb"><span>You can get a free pizza from&nbsp;</span><span style="color: #0000ff;"><a href="https://www.dominos.co.in/"><span style="color: #0000ff;">Domino&rsquo;s</span></a>
+                                        </span><span> if your home delivery order doesn&rsquo;t reach your destination within the stipulated time. However, this rule might not apply during rush hours or during the festive season. But you can always use Domino&rsquo;s coupons to reduce your bill value or even get some side menu or dessert at a discounted value.</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width:99%" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header">
+                                <div itemprop="name">
+                                    <a class="card-link st-block collapsed accordion-toggle" style="color:black;" data-toggle="collapse" href="#collapse-faq-3" aria-expanded="false">
+                                How much is a 12-inch pizza from Domino’s?                                <span class="pull-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                            </a>
+                                </div>
+                            </div>
+                            <div style="margin-left:14px;" id="collapse-faq-3" class="collapse" data-parent="#faq-accordion" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="">
+                                <div class="card-body" itemprop="text">
+                                    <p><span id="docs-internal-guid-d0f3f89a-7fff-b354-4d45-7ce2f04144ed"><span>The price of the pizza will depend on your pick of the pizza from the signature, supreme, or standard range. Every pizza baked at&nbsp;</span>
+                                        <span
+                                            style="color: #0000ff;"><a href="https://www.dominos.co.in/"><span style="color: #0000ff;">Domino&rsquo;s</span></a></span><span> contains fresh toppings, and the range of toppings varies from one pizza to another. To know how much a 12-inch pizza will cost, you can head to Domino&rsquo;s official website or download the mobile app to check pizza-wise prices.</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width:99%" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header">
+                                <div itemprop="name">
+                                    <a class="card-link st-block collapsed accordion-toggle" style="color:black;" data-toggle="collapse" href="#collapse-faq-4" aria-expanded="false">
+                                What is the most popular Domino's pizza?                                <span class="pull-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                            </a>
+                                </div>
+                            </div>
+                            <div style="margin-left:14px;" id="collapse-faq-4" class="collapse" data-parent="#faq-accordion" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="">
+                                <div class="card-body" itemprop="text">
+                                    <p><span id="docs-internal-guid-5e51fe57-7fff-6eb9-f28c-a75eb6a73804"><span>If you&rsquo;ve had a&nbsp;</span><span style="color: #0000ff;"><a href="https://www.dominos.co.in/"><span style="color: #0000ff;">Domino&rsquo;s pizza</span></a>
+                                        </span><span> before, you probably already know how delicious and fresh it tastes. While all the pizzas are equally delicious, people seem to love Domino&rsquo;s Margherita pizza, Indi Tandoori Paneer pizza, Pepper Barbecue Chicken pizza, Chicken Dominator pizza, and Farmhouse pizza. As everyone has distinct taste preferences, you might like other pizzas more, and that&rsquo;s alright, as every Domino&rsquo;s pizza has a separate fan base of its own.</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width:99%" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header">
+                                <div itemprop="name">
+                                    <a class="card-link st-block collapsed accordion-toggle" style="color:black;" data-toggle="collapse" href="#collapse-faq-5" aria-expanded="false">
+                                Which is better: Domino's or Pizza Hut?                                <span class="pull-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                            </a>
+                                </div>
+                            </div>
+                            <div style="margin-left:14px;" id="collapse-faq-5" class="collapse" data-parent="#faq-accordion" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="">
+                                <div class="card-body" itemprop="text">
+                                    <p><span id="docs-internal-guid-f624c759-7fff-ce72-e6fa-3292d830c2ca"><span>A Domino&rsquo;s pizza is always made using the freshest dough, toppings, pizza sauce, and special condiments. These elements together make Domino&rsquo;s pizza the best pizzas in your city. Head to a&nbsp;</span>
+                                        <span
+                                            style="color: #0000ff;"><a href="https://www.dominos.co.in/"><span style="color: #0000ff;">Domino&rsquo;s near me</span></a></span><span> outlet today to try and experience what makes Domino&rsquo;s pizza&rsquo;s the best. If you cannot visit the outlet for any reason, place&nbsp;</span>
+                                            <span
+                                                style="color: #0000ff;"><a href="https://www.dominos.co.in/"><span style="color: #0000ff;">Domino&rsquo;s online order</span></a></span><span> and enjoy piping hot, freshly baked pizza at home.</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width:99%" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header">
+                                <div itemprop="name">
+                                    <a class="card-link st-block collapsed accordion-toggle" style="color:black;" data-toggle="collapse" href="#collapse-faq-6" aria-expanded="false">
+                                How does the Domino’s app work?                                <span class="pull-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                            </a>
+                                </div>
+                            </div>
+                            <div style="margin-left:14px;" id="collapse-faq-6" class="collapse" data-parent="#faq-accordion" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="">
+                                <div class="card-body" itemprop="text">
+                                    <p><span id="docs-internal-guid-6e28b5be-7fff-0e8c-a1a8-4d5f9b2e83ce"><span>First, you have to download the&nbsp;</span><span style="color: #0000ff;"><a href="https://www.dominos.co.in/"><span style="color: #0000ff;">Domino&rsquo;s app</span></a>
+                                        </span><span> and create your account by providing the necessary details. Once you&rsquo;re done, you can add your favourite pizzas, side dish items, desserts, and even beverages to the cart to place your order by simply making an online payment. After the order is successfully placed, a delivery executive would deliver your&nbsp;</span>
+                                        <span
+                                            style="color: #0000ff;"><a href="https://www.dominos.co.in/"><span style="color: #0000ff;">Domino&rsquo;s <span style="color: #0000ff;">pizza near me</span></span></a></span><span> within 30-minutes or less.</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width:99%" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header">
+                                <div itemprop="name">
+                                    <a class="card-link st-block collapsed accordion-toggle" style="color:black;" data-toggle="collapse" href="#collapse-faq-7" aria-expanded="false">
+                                Which app is best for ordering pizza?                                <span class="pull-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                            </a>
+                                </div>
+                            </div>
+                            <div style="margin-left:14px;" id="collapse-faq-7" class="collapse" data-parent="#faq-accordion" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="">
+                                <div class="card-body" itemprop="text">
+                                    <p><span id="docs-internal-guid-c12d5a33-7fff-3bf1-1423-73dc65ebc0af"><span>If you want a seamless online pizza ordering experience, you should download and use the&nbsp;</span><span style="color: #0000ff;"><a href="https://www.dominos.co.in/"><span style="color: #0000ff;">Domino&rsquo;s app</span></a>
+                                        </span><span>. Using this app, you can order your favorite pizza online within a few clicks. You can also pay securely or choose to pay cash for your order on delivery. The best part of ordering a pizza from the Domino&rsquo;s app is that you get real-time order status, so you&rsquo;re up-to-date about your order&rsquo;s current status.</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width:99%" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header">
+                                <div itemprop="name">
+                                    <a class="card-link st-block collapsed accordion-toggle" style="color:black;" data-toggle="collapse" href="#collapse-faq-8" aria-expanded="false">
+                                Can I pay for Pizza online?                                <span class="pull-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                            </a>
+                                </div>
+                            </div>
+                            <div style="margin-left:14px;" id="collapse-faq-8" class="collapse" data-parent="#faq-accordion" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="">
+                                <div class="card-body" itemprop="text">
+                                    <p><span id="docs-internal-guid-7f3602ba-7fff-4d2d-420a-3fd9a0251943"><span>Yes, you can pay for&nbsp;</span><span style="color: #0000ff;"><a href="https://www.dominos.co.in/"><span style="color: #0000ff;">pizza online</span></a>
+                                        </span><span>. Just download Domino&rsquo;s mobile app or head to our website&rsquo;s menu page to place your order online and make a secure online payment.&nbsp; </span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width:99%" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header">
+                                <div itemprop="name">
+                                    <a class="card-link st-block collapsed accordion-toggle" style="color:black;" data-toggle="collapse" href="#collapse-faq-9" aria-expanded="false">
+                                How do you order pizza at home?                                <span class="pull-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                            </a>
+                                </div>
+                            </div>
+                            <div style="margin-left:14px;" id="collapse-faq-9" class="collapse" data-parent="#faq-accordion" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="">
+                                <div class="card-body" itemprop="text">
+                                    <p><span id="docs-internal-guid-6cbad9ef-7fff-c1ec-bf38-a0739158a293"><span>Domino&rsquo;s app makes it easier for everyone to order&nbsp;</span><span style="color: #0000ff;"><a href="https://www.dominos.co.in/"><span style="color: #0000ff;">pizza online</span></a>
+                                        </span><span>. You just have to download the Domino&rsquo;s app from the playstore or Apple store, create an account, and place your favorite order.</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-link collapse" id="container-store">
+                <span class="link-item label label-default"><a href="https://www.dominos.co.in/store-locations/chennai" target="_blank">Restaurants in Chennai</a></span>
+                <span class="link-item label label-default"><a href="https://www.dominos.co.in/store-locations/hyderabad" target="_blank">Restaurants in Hyderabad</a></span>
+                <span class="link-item label label-default"><a href="https://www.dominos.co.in/store-locations/bangalore" target="_blank">Restaurants in Bangalore</a></span>
+                <span class="link-item label label-default"><a href="https://www.dominos.co.in/store-locations/kolkata" target="_blank">Restaurants in Kolkata</a></span>
+                <span class="link-item label label-default"><a href="https://www.dominos.co.in/store-locations/mumbai" target="_blank">Restaurants in Mumbai</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/store-locations/new-delhi" target="_blank">Restaurants in New Delhi</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/store-locations/ahmedabad" target="_blank">Restaurants in Ahmedabad</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/store-locations/pune" target="_blank">Restaurants in Pune</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/store-locations/goa" target="_blank">Restaurants in Goa</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/store-locations/jaipur" target="_blank">Restaurants in Jaipur</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/store-locations/chandigarh" target="_blank">Restaurants in Chandigarh</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/store-locations/lucknow" target="_blank">Restaurants in Lucknow</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/store-locations/mysore" target="_blank">Restaurants in Mysore</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/store-locations/patna" target="_blank">Restaurants in Patna</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/store-locations/guwahati" target="_blank">Restaurants in Guwahati</a></span>
+            </div>
+            <div class="container-link" id="container-footer">
+                <span class="link-item label label-default"><a href="https://www.dominos.co.in/menu" target="_blank">Menu</a></span>
+                <span class="link-item label label-default"><a href="https://www.dominos.co.in/menu/veg-pizzas" target="_blank">Veg Pizza</a></span>
+                <span class="link-item label label-default"><a href="https://www.dominos.co.in/menu/non-veg-pizzas" target="_blank">Chicken Pizza</a></span>
+                <span class="link-item label label-default"><a href="https://www.dominos.co.in/menu/pasta" target="_blank">Pasta</a></span>
+                <span class="link-item label label-default"><a href="https://www.dominos.co.in/menu/choice-of-crusts" target="_blank">Pizza Crust</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/beverages" target="_blank">Beverages</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/pizza-mania" target="_blank">Pizza Mania</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/burger-pizza" target="_blank">Burger Pizza</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/veg-pizzas/farm-house" target="_blank">Farm House pizza</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/veg-pizzas/margherita" target="_blank">Veg Margherita Pizza</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/veg-pizzas/cheese-n-corn" target="_blank">Cheese Corn Pizza</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/veg-pizzas/double-cheese-margherita" target="_blank">Double Cheese Margherita Pizza</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/veg-pizzas/paneer-makhani" target="_blank">Paneer Makhani Pizza</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/side-orders/lava-cake" target="_blank">Choco Lava Cake</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/chicken/roasted-chicken-wings-peri-peri" target="_blank">Roasted Chicken Wings Peri Peri</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/side-orders/garlic-breadsticks" target="_blank">Garlic Bread</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/side-orders/stuffed-garlic-bread" target="_blank">Stuffed Garlic Bread</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/side-orders/veg-parcel" target="_blank">Paneer Zingy Parcel</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/choice-of-crusts/fresh-pan-pizza" target="_blank">Fresh Pan Pizza</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/choice-of-crusts/new-hand-tossed" target="_blank">New Hand Tossed Pizza</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/choice-of-crusts/classic-hand-tossed" target="_blank">Classic Hand Tossed Pizza</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/pizza-mania/golden-corn" target="_blank">Golden Corn Pizza</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/menu/choice-of-toppings/extra-cheese" target="_blank">Extra Cheese Pizza</a></span>
+                <span class="link-item shuffle label label-default"><a href="https://www.dominos.co.in/great-deals/online-pizza-coupons/dominos-wednesday-offers" target="_blank">Wednesday Offer - Pizza Buy 1 Get 1</a></span>
+            </div>
+            <div class="footer-wrapper">
+                <div class="footer-desktop">
+                    <ul class="footer-links">
+                        <a href="https://www.dominos.co.in/menu">
+                            <li class="list-header">Menu</li>
+                        </a>
+                        <li><a href="https://www.dominos.co.in/menu/veg-pizzas">Veg Pizza</a></li>
+                        <li><a href="https://www.dominos.co.in/menu/non-veg-pizzas">Chicken Pizza</a></li>
+                        <li><a href="https://www.dominos.co.in/menu/pasta">Pasta</a></li>
+                        <li><a href="https://www.dominos.co.in/menu/choice-of-crusts">Pizza Crust</a></li>
+                        <li><a href="https://www.dominos.co.in/menu/beverages">Beverages</a></li>
+                        <li><a href="https://www.dominos.co.in/menu/pizza-mania">Pizza Mania</a></li>
+                        <li><a href="https://www.dominos.co.in/menu/burger-pizza">Burger Pizza </a></li>
+                    </ul>
+                    <ul class="footer-links">
+                        <li class="list-header">COMPANY</li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="http://www.jubilantfoodworks.com/investors/">Investor</a></li>
+                        <li><a href="/feedback">FeedBack</a></li>
+                        <li><a href="/advertisement">Ads</a></li>
+                    </ul>
+                    <ul class="footer-links">
+                        <li class="list-header">PIZZA RESTAURANTS</li>
+                        <li><a href="https://www.dominos.co.in/restaurants-near-me">Restaurants Near Me</a></li>
+                        <li><a href="https://www.dominos.co.in/pizza-near-me">Pizza Near Me</a></li>
+                        <li><a href="https://www.dominos.co.in/food-near-me">Food Near Me</a></li>
+                        <li><a href="https://www.dominos.co.in/food-delivery">Food Delivery</a></li>
+                        <li><a href="https://www.dominos.co.in/italian-food">Italian Food</a></li>
+                        <li><a href="https://www.dominos.co.in/order-food-online">Order Food Online</a></li>
+                    </ul>
+                    <ul class="footer-links">
+                        <li class="list-header">ABOUT</li>
+                        <li><a href="/gift-vouchers">Gift card</a></li>
+                        <li><a href="https://pizzaonline.dominos.co.in/cardBalance">Card Balance Enquiry</a></li>
+                        <li><a href="https://pizzaonline.dominos.co.in/faq">FAQ</a></li>
+                        <li><a href="https://www.dominos.co.in/virtual-pizza-party">Virtual Pizza Party</a></li>
+                        <li><a href="https://www.dominos.co.in/e-gift-voucher">E-Gift Vouchers</a></li>
+                    </ul>
+                    <ul class="footer-links">
+                        <li class="list-header">LEGAL</li>
+                        <li><a href="https://pizzaonline.dominos.co.in/disclaimer">Disclaimer</a></li>
+                        <li><a href="https://pizzaonline.dominos.co.in/tnc">Terms & Conditions</a></li>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                    </ul>
+                    <ul class="footer-links">
+                        <li class="list-header">SOCIAL MEDIA</li>
+                        <li>
+                            <ul class="social-links">
+                                <li>
+                                    <a href="https://www.facebook.com/dominospizzaindia" target="_blank">
+                <img 
+                  srcset="./assets/fb.png 1x, ./assets/fb@2x.png 2x, ./assets/fb@3x.png 3x" src="./assets/fb.png"
+                  alt="facebook"
+                >
+              </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/dominos_india" target="_blank">
+                <img 
+                  srcset="./assets/twitter.png 1x, ./assets/twitter@2x.png 2x, ./assets/twitter@3x.png 3x" src="./assets/twitter.png"
+                  alt="Twitter"
+                >
+              </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/dominos_india/?hl=en" target="_blank">
+                <img 
+                  srcset="./assets/instagram@3x.png 3x, ./assets/instagram.png 1x, ./assets/instagram@2x.png 2x" src="./assets/instagram.png"
+                  alt="Instagram"
+                >
+              </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/user/dominosindia" target="_blank">
+              <img 
+                srcset="./assets/You_tube.png 1x, ./assets/You_tube@2x.png 2x, ./assets/You_tube@3x.png 3x" src="./assets/You_tube.png"
+                alt="You_tube"
+              >
+            </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="tel:18002081234">
+            <img 
+              srcset="./assets/hello_dominos_20210615.png 1x, ./assets/hello_dominos_20210615@2x.png 2x, ./assets/hello_dominos_20210615@3x.png 3x" src="./assets/hello_dominos_20210615.png"
+              alt="Domino's Customer Care Number" 
+            >
+          </a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="footer-links footer-mobile">
+                    <li><a href="https://pizzaonline.dominos.co.in/disclaimer">Disclaimer</a></li>
+                    <li><a href="https://pizzaonline.dominos.co.in/tnc">T & C</a></li>
+                    <li><a href="/privacy-policy">Privacy Policy</a></li>
+                </ul>
+                <ul class="help-links">
+                    <li>
+                        <ul class="share-links">
+                            <li>
+                                <a href="https://www.facebook.com/dominospizzaindia" target="_blank">
+              <img 
+                srcset="./assets/fb.png 1x, ./assets/fb@2x.png 2x, ./assets/fb@3x.png 3x" src="./assets/fb.png"
+                alt="facebook"
+              >
+            </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/dominos_india" target="_blank">
+              <img 
+                srcset="./assets/twitter.png 1x, ./assets/twitter@2x.png 2x, ./assets/twitter@3x.png 3x" src="./assets/twitter.png"
+                alt="Twitter"
+              >
+            </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/dominos_india/?hl=en" target="_blank">
+              <img 
+                srcset="./assets/instagram@3x.png 3x, ./assets/instagram.png 1x, ./assets/instagram@2x.png 2x" src="./assets/instagram.png"
+                alt="Instagram"
+              >
+            </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/user/dominosindia" target="_blank">
+              <img 
+                srcset="./assets/You_tube@3x.png 3x, ./assets/You_tube.png 1x, ./assets/You_tube@2x.png 2x" src="./assets/You_tube.png"
+                alt="You_tube"
+              >
+            </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="tel:18002081234">
+          <img 
+            srcset="./assets/hello_dominos_20210615.png 1x, ./assets/hello_dominos_20210615@2x.png 2x, ./assets/hello_dominos_20210615@3x.png 3x" src="./assets/hello_dominos_20210615.png"
+            alt="Domino's Customer Care Number" 
+          >
+        </a>
+                    </li>
+                </ul>
+                <div class="copyright">
+                    All Rights Reserved. Copyright © Jubilant FoodWorks Ltd.
+                </div>
+            </div>
+            <style>
+                @media (max-width: 720px) .link-item>a {
+                    color: #131415;
+                }
+
+                }
+
+                .test-label {
+                    display: inline;
+                    padding: 0.2em 0.6em 0.3em;
+                    font-size: 75%;
+                    font-weight: 700;
+                    line-height: 1;
+                    color: #fff;
+                    text-align: center;
+                    vertical-align: baseline;
+                    border-radius: 0.25em;
+                }
+            </style>
+            <script>
+                function redirectToOrderOnline() {
+                    event.preventDefault();
+                    if (window.navigator.userAgent.indexOf('Mobile') !== -1) {
+                        window.location.href = "https://m.dominos.co.in/changeAddress?src=brand";
+                    } else {
+                        window.location.href = "https://pizzaonline.dominos.co.in/?src=brand";
+                    }
+                }
+
+                function gotoHygienePage() {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    window.dataLayer.push({
+                        screen: 'Brand_HP',
+                        event: "Bannerclick",
+                        eventCategory: 'Banner click',
+                        eventAction: 'Vaccination BP',
+                        eventLabel: 'Vaccination banner click'
+                    });
+                    if (window.navigator.userAgent.indexOf('Mobile') !== -1) {
+                        window.location.href = "https://m.dominos.co.in/changeAddress?src=brand";
+                    } else {
+                        window.location.href = "https://pizzaonline.dominos.co.in/?src=brand";
+                    }
+                }
+
+                var container = document.getElementById('container');
+                var landscapeContainer = document.getElementById('landscape-mode');
+                var landscapeMessage = document.getElementById('landscape-mess');
+
+                if (window.matchMedia("(orientation: landscape)").matches && window.matchMedia("(max-width: 1024px)").matches) {
+                    container.classList.add('hide');
+                    landscapeContainer.classList.add('landscape-container');
+                    landscapeMessage.classList.remove('hide');
+                }
+                window.addEventListener("orientationchange", function() {
+                    if (window.orientation !== 0) {
+                        container.classList.add('hide');
+                        landscapeContainer.classList.add('landscape-container');
+                        landscapeMessage.classList.remove('hide');
+                    } else {
+                        container.classList.remove('hide');
+                        landscapeContainer.classList.remove('landscape-container');
+                        landscapeMessage.classList.add('hide');
+                    }
+                }, false);
+
+                function openDrawer() {
+                    document.getElementById("sideNavBar").style.width = "75vw";
+                    document.getElementById("sideNavBar").style.visibility = "visible";
+                    document.getElementById("sideNavOverlay").classList.add('side-nav-overlay');
+                    document.getElementById('landscape-mode').classList.add('no-scroll');
+                }
+
+                function closeDrawer() {
+                    event.stopPropagation();
+                    document.getElementById("sideNavBar").style.width = "0";
+                    document.getElementById("sideNavBar").style.visibility = "hidden";
+                    document.getElementById("sideNavOverlay").classList.remove('side-nav-overlay');
+                    document.getElementById('landscape-mode').classList.remove('no-scroll');
+                }
+
+                var header = document.getElementById("domino-header");
+                var banner = document.getElementById('online-banner');
+                var bannerImage = document.getElementById('bannerImage');
+                var higeneImage = document.getElementById('higeneImage');
+                var bannerImageSticky = document.getElementById('bannerImageSticky');
+                var delText = document.getElementById('delivery-text');
+                var bodyContainer = document.getElementById('bodyClass');
+                var topHeader = document.getElementById('top-header');
+
+                window.onscroll = function() {
+                    stickyHeader()
+                };
+
+                function stickyHeader() {
+                    if (window.pageYOffset > 150) {
+                        bannerImageSticky.classList.remove('hide');
+
+                        bannerImage.classList.add('hide');
+                        higeneImage.classList.add('hide');
+                        bannerImageSticky.classList.add('banner-sticky');
+                        topHeader.classList.add('hide');
+                        delText.classList.add('del-text');
+                        bodyContainer.classList.add('body');
+
+                        header.classList.add("sticky");
+                        banner.classList.add('sticky-header');
+
+                    } else {
+                        header.classList.remove("sticky");
+                        banner.classList.remove('sticky-header');
+
+                        bannerImage.classList.remove('hide');
+                        higeneImage.classList.remove('hide');
+                        bannerImageSticky.classList.add('hide');
+                        bannerImageSticky.classList.remove('banner-sticky');
+
+                        delText.classList.remove('del-text');
+                        bodyContainer.classList.remove('body');
+                        topHeader.classList.remove('hide');
+                    }
+                }
+
+                //Side Nav Sticky 
+
+                var slider = tns({
+                    container: '.explore-slider',
+                    mouseDrag: true,
+                    touch: true,
+                    loop: false,
+                    nav: false,
+                    controls: false,
+                    responsive: {
+                        320: {
+                            autoWidth: true,
+                            items: 1.2,
+                            gutter: 10,
+                        },
+                        640: {
+                            items: 2.2,
+                            gutter: 10,
+                        },
+                        900: {
+                            autoWidth: false,
+                            items: 4,
+                        }
+                    }
+                });
+
+                var modal = document.querySelector(".modal");
+                var closeButton = document.querySelector(".close-button");
+
+                function toggleModal() {
+                    modal.classList.toggle("show-modal");
+                }
+
+                closeButton.addEventListener('click', toggleModal);
+
+                var ua = window.navigator.userAgent;
+                if (ua.indexOf('Trident/') > 0) {
+                    var xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function() {
+                        if (this.readyState == 4 && this.status == 200) {
+                            createOffersSlider(JSON.parse(xhttp.response));
+                        }
+                    };
+                    xhttp.open("GET", "https://api.dominos.co.in/prod-olo-api/v1/widgetcontent/brandOffers", true);
+                    xhttp.send();
+                } else {
+                    fetch('https://api.dominos.co.in/prod-olo-api/v1/widgetcontent/brandOffers')
+                        .then(function(response) {
+                            return response.json();
+                        })
+                        .then(function(resJson) {
+                            createOffersSlider(resJson);
+                        });
+                }
+
+                function createOffersSlider(resJson) {
+                    var offersContainer = document.getElementById('offers');
+                    for (let idx = 0; idx < resJson.data.length; idx++) {
+                        let slide = document.createElement('img');
+                        slide.setAttribute('class', "offers-slide");
+                        slide.setAttribute('src', resJson.data[idx].imageUrl);
+                        slide.setAttribute('alt', resJson.data[idx].alt);
+                        offersContainer.appendChild(slide);
+                    }
+
+                    /* insert dummy slider since visible slider is 1.2 */
+                    let slide = document.createElement('img');
+                    slide.setAttribute('class', "offers-slide extra-slider");
+                    slide.setAttribute('src', resJson.data[resJson.data.length - 1].imageUrl);
+                    offersContainer.appendChild(slide);
+
+                    var slider = tns({
+                        container: '.offers-slider',
+                        loop: false,
+                        touch: true,
+                        mouseDrag: true,
+                        nav: false,
+                        controls: false,
+                        responsive: {
+                            320: {
+                                mouseDrag: true,
+                                items: 1.2,
+                                gutter: 10,
+                            },
+                            640: {
+                                mouseDrag: true,
+                                items: 2.2,
+                                gutter: 10,
+                            },
+                            900: {
+                                mouseDrag: false,
+                                items: 2.2,
+                                gutter: 20,
+                                container: '.offers-slider',
+                                controlsContainer: '#customize-controls',
+                            }
+                        }
+                    });
+
+                    document.querySelector('.prev').onclick = function() {
+                        event.stopPropagation();
+                        document.querySelector('.next').style.visibility = "visible";
+                        var isFirstItemVisible = slider.getInfo().slideItems[1].classList.contains('tns-slide-active');
+                        if (isFirstItemVisible) {
+                            document.querySelector('.prev').style.visibility = "hidden";
+                        }
+                        slider.goTo('prev');
+                    };
+
+                    document.querySelector('.next').onclick = function() {
+                        event.stopPropagation();
+                        var isLastItemVisible = slider.getInfo().slideItems[slider.getInfo().slideItems.length - 2].classList.contains('tns-slide-active');
+                        if (isLastItemVisible) {
+                            document.querySelector('.next').style.visibility = "hidden";
+                        }
+                        document.querySelector('.prev').style.visibility = "visible";
+                        slider.goTo('next');
+                    };
+                }
+
+                function corpMenuTopClicked() {
+                    window.dataLayer.push({
+                        event: "corporateEnquiry",
+                        eventCategory: 'Corporate Enquiry',
+                        eventAction: 'Top Available Options'
+                    });
+                    window.dataLayer.push({
+                        event: "corporateEnquiry",
+                        eventCategory: 'Corporate Enquiry',
+                        eventAction: 'Virtual Pizza Party'
+                    });
+                }
+
+                window.ymConfig = {
+                    bot: 'x1572447766397',
+                    'persistentNotification': false,
+                    noNotification: true
+                };
+                (function() {
+                    var w = window,
+                        ic = w.YellowMessenger;
+                    if ('function' === typeof ic) ic('reattach_activator'), ic('update', ymConfig);
+                    else {
+                        var d = document,
+                            i = function() {
+                                i.c(arguments)
+                            };
+
+                        function l() {
+                            var e = d.createElement('script');
+                            e.type = 'text/javascript', e.async = !0, e.src = 'https://app.yellowmessenger.com/widget/main.js';
+                            var t = d.getElementsByTagName('script')[0];
+                            t.parentNode.insertBefore(e, t)
+                        }
+                        i.q = [], i.c = function(e) {
+                            i.q.push(e)
+                        }, w.YellowMessenger = i, w.attachEvent ? w.attachEvent('onload', l) : w.addEventListener('load', l, !1)
+                    }
+                })();
+                $(document).ready(function() {
+                    let activities = [
+                        ['Restaurants in Abohar', 'https://www.dominos.co.in/store-locations/abohar'],
+                        ['Restaurants in Agra', 'https://www.dominos.co.in/store-locations/agra'],
+                        ['Restaurants in Ahmadnagar', 'https://www.dominos.co.in/store-locations/ahmadnagar'],
+                        ['Restaurants in Ajmer', 'https://www.dominos.co.in/store-locations/ajmer'],
+                        ['Restaurants in Akola', 'https://www.dominos.co.in/store-locations/akola'],
+                        ['Restaurants in Aligarh', 'https://www.dominos.co.in/store-locations/aligarh'],
+                        ['Restaurants in Allahabad', 'https://www.dominos.co.in/store-locations/allahabad'],
+                        ['Restaurants in Alwar', 'https://www.dominos.co.in/store-locations/alwar'],
+                        ['Restaurants in Ambala', 'https://www.dominos.co.in/store-locations/ambala'],
+                        ['Restaurants in Amravati', 'https://www.dominos.co.in/store-locations/amravati'],
+                        ['Restaurants in Amritsar', 'https://www.dominos.co.in/store-locations/amritsar'],
+                        ['Restaurants in Anand', 'https://www.dominos.co.in/store-locations/anand'],
+                        ['Restaurants in Ankleshwar', 'https://www.dominos.co.in/store-locations/ankleshwar'],
+                        ['Restaurants in Ara', 'https://www.dominos.co.in/store-locations/ara'],
+                        ['Restaurants in Asansol', 'https://www.dominos.co.in/store-locations/asansol'],
+                        ['Restaurants in Aurangabad', 'https://www.dominos.co.in/store-locations/aurangabad'],
+                        ['Restaurants in Baddi', 'https://www.dominos.co.in/store-locations/baddi'],
+                        ['Restaurants in Bahadurgarh', 'https://www.dominos.co.in/store-locations/bahadurgarh'],
+                        ['Restaurants in Bangalore', 'https://www.dominos.co.in/store-locations/bangalore'],
+                        ['Restaurants in Barabanki', 'https://www.dominos.co.in/store-locations/barabanki'],
+                        ['Restaurants in Baramati', 'https://www.dominos.co.in/store-locations/baramati'],
+                        ['Restaurants in Bardoli', 'https://www.dominos.co.in/store-locations/bardoli'],
+                        ['Restaurants in Bareilly', 'https://www.dominos.co.in/store-locations/bareilly'],
+                        ['Restaurants in Batala', 'https://www.dominos.co.in/store-locations/batala'],
+                        ['Restaurants in Begusarai', 'https://www.dominos.co.in/store-locations/begusarai'],
+                        ['Restaurants in Belgaum', 'https://www.dominos.co.in/store-locations/belgaum'],
+                        ['Restaurants in Bellari', 'https://www.dominos.co.in/store-locations/bellari'],
+                        ['Restaurants in Berhampur', 'https://www.dominos.co.in/store-locations/berhampur'],
+                        ['Restaurants in Bettiah', 'https://www.dominos.co.in/store-locations/bettiah'],
+                        ['Restaurants in Bhagalpur', 'https://www.dominos.co.in/store-locations/bhagalpur'],
+                        ['Restaurants in Bharuch', 'https://www.dominos.co.in/store-locations/bharuch'],
+                        ['Restaurants in Bhatinda', 'https://www.dominos.co.in/store-locations/bhatinda'],
+                        ['Restaurants in Bhavnagar', 'https://www.dominos.co.in/store-locations/bhavnagar'],
+                        ['Restaurants in Bhilai', 'https://www.dominos.co.in/store-locations/bhilai'],
+                        ['Restaurants in Bhilwara', 'https://www.dominos.co.in/store-locations/bhilwara'],
+                        ['Restaurants in Bhiwadi', 'https://www.dominos.co.in/store-locations/bhiwadi'],
+                        ['Restaurants in Bhiwani', 'https://www.dominos.co.in/store-locations/bhiwani'],
+                        ['Restaurants in Bhopal', 'https://www.dominos.co.in/store-locations/bhopal'],
+                        ['Restaurants in Bhubaneswar', 'https://www.dominos.co.in/store-locations/bhubaneswar'],
+                        ['Restaurants in Bhuj', 'https://www.dominos.co.in/store-locations/bhuj'],
+                        ['Restaurants in Bijapur', 'https://www.dominos.co.in/store-locations/bijapur'],
+                        ['Restaurants in Bijnor', 'https://www.dominos.co.in/store-locations/bijnor'],
+                        ['Restaurants in Bikaner', 'https://www.dominos.co.in/store-locations/bikaner'],
+                        ['Restaurants in Bilaspur', 'https://www.dominos.co.in/store-locations/bilaspur'],
+                        ['Restaurants in Boisar', 'https://www.dominos.co.in/store-locations/boisar'],
+                        ['Restaurants in Bokaro', 'https://www.dominos.co.in/store-locations/bokaro'],
+                        ['Restaurants in Burdwan', 'https://www.dominos.co.in/store-locations/burdwan'],
+                        ['Restaurants in Calicut', 'https://www.dominos.co.in/store-locations/calicut'],
+                        ['Restaurants in Chandrapur', 'https://www.dominos.co.in/store-locations/chandrapur'],
+                        ['Restaurants in Chhindwara', 'https://www.dominos.co.in/store-locations/chhindwara'],
+                        ['Restaurants in Chiplun', 'https://www.dominos.co.in/store-locations/chiplun'],
+                        ['Restaurants in Chittorgarh', 'https://www.dominos.co.in/store-locations/chittorgarh'],
+                        ['Restaurants in Cochin', 'https://www.dominos.co.in/store-locations/cochin'],
+                        ['Restaurants in Coimbatore', 'https://www.dominos.co.in/store-locations/coimbatore'],
+                        ['Restaurants in Cuttack', 'https://www.dominos.co.in/store-locations/cuttack'],
+                        ['Restaurants in Dadra And Nagar Haveli', 'https://www.dominos.co.in/store-locations/dadra-and-nagar-haveli'],
+                        ['Restaurants in Daman', 'https://www.dominos.co.in/store-locations/daman'],
+                        ['Restaurants in Darbhanga', 'https://www.dominos.co.in/store-locations/darbhanga'],
+                        ['Restaurants in Darjeeling', 'https://www.dominos.co.in/store-locations/darjeeling'],
+                        ['Restaurants in Davangere', 'https://www.dominos.co.in/store-locations/davangere'],
+                        ['Restaurants in Dehradun', 'https://www.dominos.co.in/store-locations/dehradun'],
+                        ['Restaurants in Dewas', 'https://www.dominos.co.in/store-locations/dewas'],
+                        ['Restaurants in Dhanbad', 'https://www.dominos.co.in/store-locations/dhanbad'],
+                        ['Restaurants in Dharamshala', 'https://www.dominos.co.in/store-locations/dharamshala'],
+                        ['Restaurants in Dharwad', 'https://www.dominos.co.in/store-locations/dharwad'],
+                        ['Restaurants in Dhule', 'https://www.dominos.co.in/store-locations/dhule'],
+                        ['Restaurants in Dibrugarh', 'https://www.dominos.co.in/store-locations/dibrugarh'],
+                        ['Restaurants in Dimapur', 'https://www.dominos.co.in/store-locations/dimapur'],
+                        ['Restaurants in Dombivali', 'https://www.dominos.co.in/store-locations/dombivali'],
+                        ['Restaurants in Durg', 'https://www.dominos.co.in/store-locations/durg'],
+                        ['Restaurants in Durgapur', 'https://www.dominos.co.in/store-locations/durgapur'],
+                        ['Restaurants in Erode', 'https://www.dominos.co.in/store-locations/erode'],
+                        ['Restaurants in Faridabad', 'https://www.dominos.co.in/store-locations/faridabad'],
+                        ['Restaurants in Faridkot', 'https://www.dominos.co.in/store-locations/faridkot'],
+                        ['Restaurants in Firozpur', 'https://www.dominos.co.in/store-locations/firozpur'],
+                        ['Restaurants in Gajraula', 'https://www.dominos.co.in/store-locations/gajraula'],
+                        ['Restaurants in Gandhidham', 'https://www.dominos.co.in/store-locations/gandhidham'],
+                        ['Restaurants in Gandhinagar', 'https://www.dominos.co.in/store-locations/gandhinagar'],
+                        ['Restaurants in Gangtok', 'https://www.dominos.co.in/store-locations/gangtok'],
+                        ['Restaurants in Gaya', 'https://www.dominos.co.in/store-locations/gaya'],
+                        ['Restaurants in Ghaziabad', 'https://www.dominos.co.in/store-locations/ghaziabad'],
+                        ['Restaurants in Gorakhpur', 'https://www.dominos.co.in/store-locations/gorakhpur'],
+                        ['Restaurants in Greater Noida', 'https://www.dominos.co.in/store-locations/greater-noida'],
+                        ['Restaurants in Gulbarga', 'https://www.dominos.co.in/store-locations/gulbarga'],
+                        ['Restaurants in Guntur', 'https://www.dominos.co.in/store-locations/guntur'],
+                        ['Restaurants in Gurgaon', 'https://www.dominos.co.in/store-locations/gurgaon'],
+                        ['Restaurants in Gwalior', 'https://www.dominos.co.in/store-locations/gwalior'],
+                        ['Restaurants in Hajipur', 'https://www.dominos.co.in/store-locations/hajipur'],
+                        ['Restaurants in Haldia', 'https://www.dominos.co.in/store-locations/haldia'],
+                        ['Restaurants in Haldwani', 'https://www.dominos.co.in/store-locations/haldwani'],
+                        ['Restaurants in Hapur', 'https://www.dominos.co.in/store-locations/hapur'],
+                        ['Restaurants in Harda', 'https://www.dominos.co.in/store-locations/harda'],
+                        ['Restaurants in Haridwar', 'https://www.dominos.co.in/store-locations/haridwar'],
+                        ['Restaurants in Hazaribagh', 'https://www.dominos.co.in/store-locations/hazaribagh'],
+                        ['Restaurants in Hissar', 'https://www.dominos.co.in/store-locations/hissar'],
+                        ['Restaurants in Hoogly', 'https://www.dominos.co.in/store-locations/hoogly'],
+                        ['Restaurants in Hoshiarpur', 'https://www.dominos.co.in/store-locations/hoshiarpur'],
+                        ['Restaurants in Hosur', 'https://www.dominos.co.in/store-locations/hosur'],
+                        ['Restaurants in Howrah', 'https://www.dominos.co.in/store-locations/howrah'],
+                        ['Restaurants in Hubli', 'https://www.dominos.co.in/store-locations/hubli'],
+                        ['Restaurants in Indore', 'https://www.dominos.co.in/store-locations/indore'],
+                        ['Restaurants in Itanagar', 'https://www.dominos.co.in/store-locations/itanagar'],
+                        ['Restaurants in Jabalpur', 'https://www.dominos.co.in/store-locations/jabalpur'],
+                        ['Restaurants in Jaigaon', 'https://www.dominos.co.in/store-locations/jaigaon'],
+                        ['Restaurants in Jalandhar', 'https://www.dominos.co.in/store-locations/jalandhar'],
+                        ['Restaurants in Jalgaon', 'https://www.dominos.co.in/store-locations/jalgaon'],
+                        ['Restaurants in Jam Nagar', 'https://www.dominos.co.in/store-locations/jam-nagar'],
+                        ['Restaurants in Jammu', 'https://www.dominos.co.in/store-locations/jammu'],
+                        ['Restaurants in Jamshedpur', 'https://www.dominos.co.in/store-locations/jamshedpur'],
+                        ['Restaurants in Jhansi', 'https://www.dominos.co.in/store-locations/jhansi'],
+                        ['Restaurants in Jodhpur', 'https://www.dominos.co.in/store-locations/jodhpur'],
+                        ['Restaurants in Jorhat', 'https://www.dominos.co.in/store-locations/jorhat'],
+                        ['Restaurants in Junagadh', 'https://www.dominos.co.in/store-locations/junagadh'],
+                        ['Restaurants in Kadapa', 'https://www.dominos.co.in/store-locations/kadapa'],
+                        ['Restaurants in Kaithal', 'https://www.dominos.co.in/store-locations/kaithal'],
+                        ['Restaurants in Kakinada', 'https://www.dominos.co.in/store-locations/kakinada'],
+                        ['Restaurants in Kanchipuram', 'https://www.dominos.co.in/store-locations/kanchipuram'],
+                        ['Restaurants in Kangra', 'https://www.dominos.co.in/store-locations/kangra'],
+                        ['Restaurants in Kanpur', 'https://www.dominos.co.in/store-locations/kanpur'],
+                        ['Restaurants in Kapurthala', 'https://www.dominos.co.in/store-locations/kapurthala'],
+                        ['Restaurants in Karad', 'https://www.dominos.co.in/store-locations/karad'],
+                        ['Restaurants in Karnal', 'https://www.dominos.co.in/store-locations/karnal'],
+                        ['Restaurants in Kashipur', 'https://www.dominos.co.in/store-locations/kashipur'],
+                        ['Restaurants in Katni', 'https://www.dominos.co.in/store-locations/katni'],
+                        ['Restaurants in Katra', 'https://www.dominos.co.in/store-locations/katra'],
+                        ['Restaurants in Khandwa', 'https://www.dominos.co.in/store-locations/khandwa'],
+                        ['Restaurants in Khanna', 'https://www.dominos.co.in/store-locations/khanna'],
+                        ['Restaurants in Kharagpur', 'https://www.dominos.co.in/store-locations/kharagpur'],
+                        ['Restaurants in Kharar', 'https://www.dominos.co.in/store-locations/kharar'],
+                        ['Restaurants in Kochi', 'https://www.dominos.co.in/store-locations/kochi'],
+                        ['Restaurants in Kodaikanal', 'https://www.dominos.co.in/store-locations/kodaikanal'],
+                        ['Restaurants in Kolhapur', 'https://www.dominos.co.in/store-locations/kolhapur'],
+                        ['Restaurants in Kollam', 'https://www.dominos.co.in/store-locations/kollam'],
+                        ['Restaurants in Korba', 'https://www.dominos.co.in/store-locations/korba'],
+                        ['Restaurants in Kota', 'https://www.dominos.co.in/store-locations/kota'],
+                        ['Restaurants in Kottayam', 'https://www.dominos.co.in/store-locations/kottayam'],
+                        ['Restaurants in Kullu', 'https://www.dominos.co.in/store-locations/kullu'],
+                        ['Restaurants in Kurnool', 'https://www.dominos.co.in/store-locations/kurnool'],
+                        ['Restaurants in Kurukshetra', 'https://www.dominos.co.in/store-locations/kurukshetra'],
+                        ['Restaurants in Latur', 'https://www.dominos.co.in/store-locations/latur'],
+                        ['Restaurants in Lonavala', 'https://www.dominos.co.in/store-locations/lonavala'],
+                        ['Restaurants in Ludhiana', 'https://www.dominos.co.in/store-locations/ludhiana'],
+                        ['Restaurants in Madikeri', 'https://www.dominos.co.in/store-locations/madikeri'],
+                        ['Restaurants in Madurai', 'https://www.dominos.co.in/store-locations/madurai'],
+                        ['Restaurants in Mahabaleshwar', 'https://www.dominos.co.in/store-locations/mahabaleshwar'],
+                        ['Restaurants in Mandi', 'https://www.dominos.co.in/store-locations/mandi'],
+                        ['Restaurants in Manesar', 'https://www.dominos.co.in/store-locations/manesar'],
+                        ['Restaurants in Mangalore', 'https://www.dominos.co.in/store-locations/mangalore'],
+                        ['Restaurants in Manipal', 'https://www.dominos.co.in/store-locations/manipal'],
+                        ['Restaurants in Mathura', 'https://www.dominos.co.in/store-locations/mathura'],
+                        ['Restaurants in Meerut', 'https://www.dominos.co.in/store-locations/meerut'],
+                        ['Restaurants in Mehsana', 'https://www.dominos.co.in/store-locations/mehsana'],
+                        ['Restaurants in Miraj', 'https://www.dominos.co.in/store-locations/miraj'],
+                        ['Restaurants in Moga', 'https://www.dominos.co.in/store-locations/moga'],
+                        ['Restaurants in Mohali', 'https://www.dominos.co.in/store-locations/mohali'],
+                        ['Restaurants in Moradabad', 'https://www.dominos.co.in/store-locations/moradabad'],
+                        ['Restaurants in Mount Abu', 'https://www.dominos.co.in/store-locations/mount-abu'],
+                        ['Restaurants in Mughalsarai', 'https://www.dominos.co.in/store-locations/mughalsarai'],
+                        ['Restaurants in Muzaffarnagar', 'https://www.dominos.co.in/store-locations/muzaffarnagar'],
+                        ['Restaurants in Muzzafarpur', 'https://www.dominos.co.in/store-locations/muzzafarpur'],
+                        ['Restaurants in Nadiad', 'https://www.dominos.co.in/store-locations/nadiad'],
+                        ['Restaurants in Nagaon', 'https://www.dominos.co.in/store-locations/nagaon'],
+                        ['Restaurants in Nagpur', 'https://www.dominos.co.in/store-locations/nagpur'],
+                        ['Restaurants in Nanded', 'https://www.dominos.co.in/store-locations/nanded'],
+                        ['Restaurants in Nasik', 'https://www.dominos.co.in/store-locations/nasik'],
+                        ['Restaurants in Navi Mumbai', 'https://www.dominos.co.in/store-locations/navi-mumbai'],
+                        ['Restaurants in Navsari', 'https://www.dominos.co.in/store-locations/navsari'],
+                        ['Restaurants in Nawanshahr', 'https://www.dominos.co.in/store-locations/nawanshahr'],
+                        ['Restaurants in Neemuch', 'https://www.dominos.co.in/store-locations/neemuch'],
+                        ['Restaurants in Nellore', 'https://www.dominos.co.in/store-locations/nellore'],
+                        ['Restaurants in Noida', 'https://www.dominos.co.in/store-locations/noida'],
+                        ['Restaurants in Ooty', 'https://www.dominos.co.in/store-locations/ooty'],
+                        ['Restaurants in Palakkad', 'https://www.dominos.co.in/store-locations/palakkad'],
+                        ['Restaurants in Palampur', 'https://www.dominos.co.in/store-locations/palampur'],
+                        ['Restaurants in Palanpur', 'https://www.dominos.co.in/store-locations/palanpur'],
+                        ['Restaurants in Palwal', 'https://www.dominos.co.in/store-locations/palwal'],
+                        ['Restaurants in Panchkula', 'https://www.dominos.co.in/store-locations/panchkula'],
+                        ['Restaurants in Panipat', 'https://www.dominos.co.in/store-locations/panipat'],
+                        ['Restaurants in Pathankot', 'https://www.dominos.co.in/store-locations/pathankot'],
+                        ['Restaurants in Patiala', 'https://www.dominos.co.in/store-locations/patiala'],
+                        ['Restaurants in Phagwara', 'https://www.dominos.co.in/store-locations/phagwara'],
+                        ['Restaurants in Pinjore', 'https://www.dominos.co.in/store-locations/pinjore'],
+                        ['Restaurants in Pondicherry', 'https://www.dominos.co.in/store-locations/pondicherry'],
+                        ['Restaurants in Puri', 'https://www.dominos.co.in/store-locations/puri'],
+                        ['Restaurants in Purnia', 'https://www.dominos.co.in/store-locations/purnia'],
+                        ['Restaurants in Raebareli', 'https://www.dominos.co.in/store-locations/raebareli'],
+                        ['Restaurants in Raigarh', 'https://www.dominos.co.in/store-locations/raigarh'],
+                        ['Restaurants in Raipur', 'https://www.dominos.co.in/store-locations/raipur'],
+                        ['Restaurants in Rajahamundry', 'https://www.dominos.co.in/store-locations/rajahamundry'],
+                        ['Restaurants in Rajkot', 'https://www.dominos.co.in/store-locations/rajkot'],
+                        ['Restaurants in Rajnandgaon', 'https://www.dominos.co.in/store-locations/rajnandgaon'],
+                        ['Restaurants in Rajpura', 'https://www.dominos.co.in/store-locations/rajpura'],
+                        ['Restaurants in Ranchi', 'https://www.dominos.co.in/store-locations/ranchi'],
+                        ['Restaurants in Ratlam', 'https://www.dominos.co.in/store-locations/ratlam'],
+                        ['Restaurants in Ratnagiri', 'https://www.dominos.co.in/store-locations/ratnagiri'],
+                        ['Restaurants in Rewa', 'https://www.dominos.co.in/store-locations/rewa'],
+                        ['Restaurants in Rewari', 'https://www.dominos.co.in/store-locations/rewari'],
+                        ['Restaurants in Rishikesh', 'https://www.dominos.co.in/store-locations/rishikesh'],
+                        ['Restaurants in Rohtak', 'https://www.dominos.co.in/store-locations/rohtak'],
+                        ['Restaurants in Roorkee', 'https://www.dominos.co.in/store-locations/roorkee'],
+                        ['Restaurants in Rourkela', 'https://www.dominos.co.in/store-locations/rourkela'],
+                        ['Restaurants in Rudrapur', 'https://www.dominos.co.in/store-locations/rudrapur'],
+                        ['Restaurants in Sagar', 'https://www.dominos.co.in/store-locations/sagar'],
+                        ['Restaurants in Saharanpur', 'https://www.dominos.co.in/store-locations/saharanpur'],
+                        ['Restaurants in Salem', 'https://www.dominos.co.in/store-locations/salem'],
+                        ['Restaurants in Sambalpur', 'https://www.dominos.co.in/store-locations/sambalpur'],
+                        ['Restaurants in Sangli', 'https://www.dominos.co.in/store-locations/sangli'],
+                        ['Restaurants in Sangrur', 'https://www.dominos.co.in/store-locations/sangrur'],
+                        ['Restaurants in Satara', 'https://www.dominos.co.in/store-locations/satara'],
+                        ['Restaurants in Satna', 'https://www.dominos.co.in/store-locations/satna'],
+                        ['Restaurants in Shahjahanpur', 'https://www.dominos.co.in/store-locations/shahjahanpur'],
+                        ['Restaurants in Shillong', 'https://www.dominos.co.in/store-locations/shillong'],
+                        ['Restaurants in Shimla', 'https://www.dominos.co.in/store-locations/shimla'],
+                        ['Restaurants in Shimoga', 'https://www.dominos.co.in/store-locations/shimoga'],
+                        ['Restaurants in Shirdi', 'https://www.dominos.co.in/store-locations/shirdi'],
+                        ['Restaurants in Sikkim', 'https://www.dominos.co.in/store-locations/sikkim'],
+                        ['Restaurants in Silchar', 'https://www.dominos.co.in/store-locations/silchar'],
+                        ['Restaurants in Siliguri', 'https://www.dominos.co.in/store-locations/siliguri'],
+                        ['Restaurants in Sirsa', 'https://www.dominos.co.in/store-locations/sirsa'],
+                        ['Restaurants in Solan', 'https://www.dominos.co.in/store-locations/solan'],
+                        ['Restaurants in Solapur', 'https://www.dominos.co.in/store-locations/solapur'],
+                        ['Restaurants in Sonipat', 'https://www.dominos.co.in/store-locations/sonipat'],
+                        ['Restaurants in Sreerampore', 'https://www.dominos.co.in/store-locations/sreerampore'],
+                        ['Restaurants in Sri Ganganagar', 'https://www.dominos.co.in/store-locations/sri-ganganagar'],
+                        ['Restaurants in Surat', 'https://www.dominos.co.in/store-locations/surat'],
+                        ['Restaurants in Surendranagar', 'https://www.dominos.co.in/store-locations/surendranagar'],
+                        ['Restaurants in Tezpur', 'https://www.dominos.co.in/store-locations/tezpur'],
+                        ['Restaurants in Thane', 'https://www.dominos.co.in/store-locations/thane'],
+                        ['Restaurants in Thanjavur', 'https://www.dominos.co.in/store-locations/thanjavur'],
+                        ['Restaurants in Thrissur', 'https://www.dominos.co.in/store-locations/thrissur'],
+                        ['Restaurants in Tinsukia', 'https://www.dominos.co.in/store-locations/tinsukia'],
+                        ['Restaurants in Tiruchirapalli', 'https://www.dominos.co.in/store-locations/tiruchirapalli'],
+                        ['Restaurants in Tirunelvelli', 'https://www.dominos.co.in/store-locations/tirunelvelli'],
+                        ['Restaurants in Tirupati', 'https://www.dominos.co.in/store-locations/tirupati'],
+                        ['Restaurants in Tirupur', 'https://www.dominos.co.in/store-locations/tirupur'],
+                        ['Restaurants in Trivandrum', 'https://www.dominos.co.in/store-locations/trivandrum'],
+                        ['Restaurants in Tumkur', 'https://www.dominos.co.in/store-locations/tumkur'],
+                        ['Restaurants in Udaipur', 'https://www.dominos.co.in/store-locations/udaipur'],
+                        ['Restaurants in Ujjain', 'https://www.dominos.co.in/store-locations/ujjain'],
+                        ['Restaurants in Vadodara', 'https://www.dominos.co.in/store-locations/vadodara'],
+                        ['Restaurants in Valsad', 'https://www.dominos.co.in/store-locations/valsad'],
+                        ['Restaurants in Vapi', 'https://www.dominos.co.in/store-locations/vapi'],
+                        ['Restaurants in Varanasi', 'https://www.dominos.co.in/store-locations/varanasi'],
+                        ['Restaurants in Vellore', 'https://www.dominos.co.in/store-locations/vellore'],
+                        ['Restaurants in Vijayawada', 'https://www.dominos.co.in/store-locations/vijayawada'],
+                        ['Restaurants in Vishakhapatnam', 'https://www.dominos.co.in/store-locations/vishakhapatnam'],
+                        ['Restaurants in Vizianagaram', 'https://www.dominos.co.in/store-locations/vizianagaram'],
+                        ['Restaurants in Warangal', 'https://www.dominos.co.in/store-locations/warangal'],
+                        ['Restaurants in Wardha', 'https://www.dominos.co.in/store-locations/wardha'],
+                        ['Restaurants in Yamuna Nagar', 'https://www.dominos.co.in/store-locations/yamuna-nagar'],
+                        ['Restaurants in Yavatmal', 'https://www.dominos.co.in/store-locations/yavatmal'],
+                        ['Restaurants in Zirakpur', 'https://www.dominos.co.in/store-locations/zirakpur'],
+                        ['Restaurants in Delhi', 'https://www.dominos.co.in/store-locations/delhi'],
+                        ['Restaurants in Secundrabad', 'https://www.dominos.co.in/store-locations/secundrabad'],
+                        ['Restaurants in Mussoorie', 'https://www.dominos.co.in/store-locations/mussoorie'],
+                        ['Restaurants in Nainital', 'https://www.dominos.co.in/store-locations/nainital'],
+                        ['Restaurants in Channapatna', 'https://www.dominos.co.in/store-locations/channapatna'],
+                        ['Restaurants in Jabli', 'https://www.dominos.co.in/store-locations/jabli'],
+                        ['Restaurants in Kolar', 'https://www.dominos.co.in/store-locations/kolar'],
+                        ['Restaurants in Suryapet', 'https://www.dominos.co.in/store-locations/suryapet'],
+                        ['Restaurants in Modinagar', 'https://www.dominos.co.in/store-locations/modinagar'],
+                        ['Restaurants in Ballary', 'https://www.dominos.co.in/store-locations/ballary'],
+                        ['Restaurants in Shoolagiri', 'https://www.dominos.co.in/store-locations/shoolagiri'],
+                        ['Restaurants in Thiruvananthapuram', 'https://www.dominos.co.in/store-locations/thiruvananthapuram'],
+                        ['Restaurants in Ambaji', 'https://www.dominos.co.in/store-locations/ambaji'],
+                        ['Restaurants in Deoghar', 'https://www.dominos.co.in/store-locations/deoghar'],
+                        ['Restaurants in Rupnagar', 'https://www.dominos.co.in/store-locations/rupnagar'],
+                        ['Restaurants in Alibaug', 'https://www.dominos.co.in/store-locations/alibaug'],
+                        ['Restaurants in Khatauli', 'https://www.dominos.co.in/store-locations/khatauli'],
+                        ['Restaurants in Sikar', 'https://www.dominos.co.in/store-locations/sikar'],
+                        ['Restaurants in Gurugram', 'https://www.dominos.co.in/store-locations/gurugram'],
+                        ['Restaurants in Dankuni', 'https://www.dominos.co.in/store-locations/dankuni'],
+                        ['Restaurants in Nashik', 'https://www.dominos.co.in/store-locations/nashik'],
+                        ['Restaurants in Hydrabad', 'https://www.dominos.co.in/store-locations/hydrabad'],
+                        ['Restaurants in Motihari', 'https://www.dominos.co.in/store-locations/motihari'],
+                        ['Restaurants in Neemrana', 'https://www.dominos.co.in/store-locations/neemrana'],
+                        ['Restaurants in Gujarat', 'https://www.dominos.co.in/store-locations/gujarat'],
+                        ['Restaurants in Simla', 'https://www.dominos.co.in/store-locations/simla'],
+                        ['Restaurants in Haryana', 'https://www.dominos.co.in/store-locations/haryana'],
+                        ['Restaurants in Secunderabad', 'https://www.dominos.co.in/store-locations/secunderabad'],
+                        ['Restaurants in New Panvel', 'https://www.dominos.co.in/store-locations/new-panvel'],
+                        ['Restaurants in Kohlapur', 'https://www.dominos.co.in/store-locations/kohlapur'],
+                        ['Restaurants in Kutch', 'https://www.dominos.co.in/store-locations/kutch'],
+                        ['Restaurants in Tiruchirapalli (Trichy)', 'https://www.dominos.co.in/store-locations/tiruchirapalli-trichy'],
+                        ['Restaurants in Shilong', 'https://www.dominos.co.in/store-locations/shilong'],
+                        ['Restaurants in Hisar', 'https://www.dominos.co.in/store-locations/hisar'],
+                        ['Restaurants in Parganas', 'https://www.dominos.co.in/store-locations/parganas'],
+                        ['Restaurants in Thane (West)', 'https://www.dominos.co.in/store-locations/thane-west'],
+                        ['Restaurants in Karjan', 'https://www.dominos.co.in/store-locations/karjan'],
+                        ['Restaurants in Anklshwar', 'https://www.dominos.co.in/store-locations/anklshwar'],
+                        ['Restaurants in Nanganallur', 'https://www.dominos.co.in/store-locations/nanganallur'],
+                        ['Restaurants in Cuttak', 'https://www.dominos.co.in/store-locations/cuttak'],
+                        ['Restaurants in Kalyan', 'https://www.dominos.co.in/store-locations/kalyan'],
+                        ['Restaurants in Rangpo', 'https://www.dominos.co.in/store-locations/rangpo'],
+                        ['Restaurants in Greater Mohali', 'https://www.dominos.co.in/store-locations/greater-mohali'],
+                        ['Restaurants in Muzzafarnagar', 'https://www.dominos.co.in/store-locations/muzzafarnagar'],
+                        ['Restaurants in Shahdra', 'https://www.dominos.co.in/store-locations/shahdra'],
+                        ['Restaurants in Nawanshehar', 'https://www.dominos.co.in/store-locations/nawanshehar'],
+                        ['Restaurants in Palghar', 'https://www.dominos.co.in/store-locations/palghar'],
+                        ['Restaurants in Visakhapatnam', 'https://www.dominos.co.in/store-locations/visakhapatnam'],
+                        ['Restaurants in Amabala', 'https://www.dominos.co.in/store-locations/amabala'],
+                        ['Restaurants in Puducherry', 'https://www.dominos.co.in/store-locations/puducherry'],
+                        ['Restaurants in Hooghly', 'https://www.dominos.co.in/store-locations/hooghly'],
+                        ['Restaurants in Mehasana', 'https://www.dominos.co.in/store-locations/mehasana'],
+                        ['Restaurants in Kolkatta', 'https://www.dominos.co.in/store-locations/kolkatta'],
+                        ['Restaurants in Bengaluru', 'https://www.dominos.co.in/store-locations/bengaluru'],
+                        ['Restaurants in Nalgonda', 'https://www.dominos.co.in/store-locations/nalgonda'],
+                        ['Restaurants in Sonepat', 'https://www.dominos.co.in/store-locations/sonepat'],
+                        ['Restaurants in Raigad', 'https://www.dominos.co.in/store-locations/raigad'],
+                        ['Restaurants in Siolim', 'https://www.dominos.co.in/store-locations/siolim'],
+                        ['Restaurants in Shivamogaa', 'https://www.dominos.co.in/store-locations/shivamogaa'],
+                        ['Restaurants in Virar', 'https://www.dominos.co.in/store-locations/virar'],
+                        ['Restaurants in Taluka Haveli', 'https://www.dominos.co.in/store-locations/taluka-haveli'],
+                        ['Restaurants in Dwarka', 'https://www.dominos.co.in/store-locations/dwarka'],
+                        ['Restaurants in Ballari', 'https://www.dominos.co.in/store-locations/ballari'],
+                        ['Restaurants in DEHRADUN', 'https://www.dominos.co.in/store-locations/dehardun'],
+                        ['Restaurants in DEHRADUN', 'https://www.dominos.co.in/store-locations/dehradun-2'],
+                        ['Restaurants in Telangana', 'https://www.dominos.co.in/store-locations/telangana'],
+                        ['Restaurants in Tamil Nadu', 'https://www.dominos.co.in/store-locations/tamil-nadu'],
+                        ['Restaurants in Ropar', 'https://www.dominos.co.in/store-locations/ropar'],
+                        ['Restaurants in Bilimora', 'https://www.dominos.co.in/store-locations/bilimora'],
+                        ['Restaurants in Agartala', 'https://www.dominos.co.in/store-locations/agartala'],
+                        ['Restaurants in Dombivli', 'https://www.dominos.co.in/store-locations/dombivli'],
+                    ];
+                    var shuffled = fisherYates(activities);
+                    var html = '';
+                    for (var i = 0; i < 10; i++) {
+                        html += '<span class="link-item shuffle label label-default"><a href="' + shuffled[i][1] + '" target="_blank">' + shuffled[i][0] + '</a></span>';
+                    }
+                    $('#container-store').append(html);
+                })
+
+                function fisherYates(myArray) {
+                    var i = myArray.length,
+                        j, tempi, tempj;
+                    if (i === 0) return false;
+                    while (--i) {
+                        j = Math.floor(Math.random() * (i + 1));
+                        tempi = myArray[i];
+                        tempj = myArray[j];
+                        myArray[i] = tempj;
+                        myArray[j] = tempi;
+                    }
+                    return myArray;
+                }
+            </script>
+            <style>
+                @media (min-width: 768px) .col-md-12 {
+                    -ms-flex: 0 0 100%;
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+
+                }
+
+                .st-box-white {
+                    background-color: #fff;
+                    padding: 10px 15px;
+                    border-radius: 4px;
+                    overflow: hidden;
+                }
+
+                .st-accordion .card {
+                    border: 0;
+                    border-top: 1px solid rgba(0, 0, 0, .125);
+                }
+
+                .card {
+                    position: relative;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-direction: column;
+                    flex-direction: column;
+                    min-width: 0;
+                    word-wrap: break-word;
+                    background-color: #fff;
+                    background-clip: border-box;
+                    border: 1px solid rgba(0, 0, 0, .125);
+                    border-radius: 0.25rem;
+                }
+
+                .st-accordion .card-header {
+                    background-color: #fafafa;
+                    border: 0;
+                }
+
+                .card-header:first-child {
+                    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+                }
+
+                .card-header {
+                    padding: 0.75rem 1.25rem;
+                    margin-bottom: 0;
+                    background-color: rgba(0, 0, 0, .03);
+                    border-bottom: 1px solid rgba(0, 0, 0, .125);
+                }
+
+                .pull-right {
+                    float: right;
+                }
+
+                .collapse {
+                    display: none
+                }
+
+                .in {
+                    display: block;
+                }
+            </style>
+            <script>
+                $(document).ready(function() {
+                    $('.accordion-toggle').click(function() {
+                        var dataId = jQuery(this).attr('href');
+                        if (jQuery(dataId).hasClass('in')) {
+                            setTimeout(function() {
+                                $(dataId).removeClass('in')
+                            }, 1);
+                            setTimeout(function() {
+                                $(dataId).addClass('collapse')
+                            }, 1);
+                        }
+                        if ($(dataId).hasClass('collapse')) {
+
+                            setTimeout(function() {
+                                $(dataId).removeClass('collapse')
+                            }, 1);
+                            setTimeout(function() {
+                                $(dataId).addClass('in')
+                            }, 1);
+                        }
+                    })
+                })
+            </script>
+            <style>
+                .content-h3 {
+                    color: #006491;
+                    background: 0 0;
+                    border-width: 0;
+                    font-family: One Dot;
+                    font-size: 30px;
+                    line-height: 34px;
+                    font-weight: 400;
+                    font-family: "One Dot", "DIN Condensed", "Bahnschrift Condensed", "Roboto Condensed", "Arial Narrow", sans-serif;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+
+                .content-p {
+                    color: #54565b;
+                    background: 0 0;
+                    border-width: 0;
+                    font-family: Arial;
+                    font-size: 16px;
+                    line-height: 26px;
+                    font-weight: 400;
+                }
+
+                ul.breadcrumb {
+                    padding: 10px 16px;
+                    list-style: none;
+                    background-color: #eee;
+                }
+
+                /* Display list items side by side */
+
+                ul.breadcrumb li {
+                    display: inline;
+                    font-size: 14px;
+                }
+
+                /* Add a slash symbol (/) before/behind each list item */
+
+                ul.breadcrumb li+li:before {
+                    padding: 8px;
+                    color: black;
+                    content: "/\00a0";
+                }
+
+                /* Add a color to all links inside the list */
+
+                ul.breadcrumb li a {
+                    color: #0275d8;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                }
+
+                /* Add a color on mouse-over */
+
+                ul.breadcrumb li a:hover {
+                    color: #01447e;
+                    text-decoration: underline;
+                }
+            </style>
+            <script type="text/javascript">
+                window.NREUM || (NREUM = {});
+                NREUM.info = {
+                    "beacon": "bam-cell.nr-data.net",
+                    "licenseKey": "62ac01ee86",
+                    "applicationID": "685069429",
+                    "transactionName": "YlcAZEAHXEYHVhBfXFsdN0JbSVtbAlAcGENdQg==",
+                    "queueTime": 0,
+                    "applicationTime": 50,
+                    "atts": "ThADEggdT0g=",
+                    "errorBeacon": "bam-cell.nr-data.net",
+                    "agent": ""
+                }
+            </script>
+</body>
+
+</html>
